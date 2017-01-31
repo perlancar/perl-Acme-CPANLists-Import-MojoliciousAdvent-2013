@@ -1,0 +1,210 @@
+<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#"><head><meta charset="UTF-8" /><title>Mojoliciousã§ããããªãäºããã£ããã©ãã§èãã°ããï¼ - Qiita</title><meta content="width=device-width,initial-scale=1" name="viewport" /><meta content="æ¥æ¬èªãªã½ã¼ã¹ãåå®ãã¤ã¤ããMojoliciousãå½åã§ãããã§ãããä¸ççã«ãã¦ã¼ã¶æ°ãå¤ããµã¼ãã¹ã§ã¯ããã¾ããããªããªãå·ä½çãªæ´»ç¨äºä¾ãåºã¦ãã¦ããªãæãããã¾ãã
+
+æ½å¨çã«Mojoliciousã®å½åã¦ã¼ã¶ã¯å¤ãã¨æãã®ã§ãããã§ã¯å°ã£ãã¨ãã«ã©ãã§èãã°ããã®ããããããããªãã¦ã¼ã¶ãå¤ãã¨æãã¾ãã®ã§ãç§ãç¥ã£ã¦ããå ´æãããã¤ããç´¹ä»ãã¾ãã
+
+ãªããç§èªèº«ãè±èªãè¦æãªã®ã§ãããã§ã¯æ¥æ¬èªã§è³ªåãåºæ¥ãå ´æã«éå®ãã¦ãã¾ãã
+
+
+åå°ã®Perl ..." name="description" /><meta content="summary" name="twitter:card" /><meta content="@Qiita" name="twitter:site" /><meta content="xtetsuji" name="twitter:creator" /><link href="https://plus.google.com/+TetsujiOGATA" rel="author" /><meta content="Mojoliciousã§ããããªãäºããã£ããã©ãã§èãã°ããï¼ - Qiita" property="og:title" /><meta content="article" property="og:type" /><meta content="http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" property="og:url" /><meta content="http://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png" property="og:image" /><meta content="
+æ¥æ¬èªãªã½ã¼ã¹ãåå®ãã¤ã¤ããMojoliciousãå½åã§ãããã§ãããä¸ççã«ãã¦ã¼ã¶æ°ãå¤ããµã¼ãã¹ã§ã¯ããã¾ããããªããªãå·ä½çãªæ´»ç¨äºä¾ãåºã¦ãã¦ããªãæãããã¾ãã
+
+æ½å¨çã«Mojoliciousã®å½åã¦ã¼ã¶ã¯å¤ãã¨æ..." property="og:description" /><meta content="Qiita" property="og:site_name" /><meta content="564524038" property="fb:admins" /><link rel="shortcut icon" type="image/x-icon" href="http://cdn.qiita.com/assets/favicons/public/production-4ff10c1e1e2b5fcb353ff9cafdd56c70.ico" /><link rel="apple-touch-icon" type="image/png" href="http://cdn.qiita.com/assets/favicons/public/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png" /><link href="/opensearch.xml" rel="search" title="Qiita" type="application/opensearchdescription+xml" /><link rel="stylesheet" media="all" href="http://cdn.qiita.com/assets/public-1970acb57243128a443f18d046179546.min.css" /><meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="/7y6lX5NHI8UJWmKd+MVi9VQUL/QlwlkqHo7YW474qL37nnb+ZXgBXlN5DKEE3jAzpC7Oj748WL21Jnn6W2eWw==" /></head><body class="without-js" id=""><noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-TBQWPN" style="display:none;visibility:hidden" width="0"></iframe></noscript><script>
+  document.body.className = document.body.className.replace('without-js', '') + ' with-js';
+  window.Qiita = {"asset_host":"cdn.qiita.com","TLD":"com","controller_path":"public/items","controller_action":"public/items#show","controller":"items","action":"show","env":"production","flash":{},"is_landing_page":false,"is_team_page":false,"root_domain":"qiita.com","variant":null,"config":{"mixpanel":{"career":"dd35af27e959781713d63fd7ca898a8d","per_team":"c0a2116368b33b44b5029ebd2cc9b094","public":"be87616606b0e26a87689099aab2c4e5","team":"b7c0342acba2dbc8742484d98788efb3"},"default_locale":"ja","locale":"ja"},"team":null,"user":null,"GIT_BRANCH":null,"DEBUG":false};
+
+</script>
+<div class="headerContainer headerContainer-public" role="navigation"><div data-react-class="T.HeaderContainer" data-react-props="{&quot;user&quot;:null,&quot;team&quot;:null,&quot;news&quot;:{&quot;type&quot;:&quot;åé&quot;,&quot;content&quot;:&quot;QiitaãQiita:Teamãè¯ããããã¨ã³ã¸ãã¢&quot;,&quot;url&quot;:&quot;http://increments.co.jp/jobs/engineers?utm_source=qiita\u0026utm_medium=header_news&quot;},&quot;initial_unread_count&quot;:null,&quot;siteid_image&quot;:&quot;http://cdn.qiita.com/siteid-reverse.png&quot;,&quot;is_team_page&quot;:false,&quot;on_team_setting&quot;:false,&quot;show_post_menu&quot;:true,&quot;show_search_menu&quot;:true,&quot;is_fluid&quot;:false,&quot;locale&quot;:&quot;ja&quot;}"></div></div><div id="main"><ol class="itemBreadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Qiita</span></a><meta content="1" itemprop="position" /></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/items"><span itemprop="name">æç¨¿</span></a><meta content="2" itemprop="position" /></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/tags/Perl"><span itemprop="name">Perl</span></a><meta content="3" itemprop="position" /></li></ol><article itemscope="" itemtype="http://schema.org/Article"><div class="ArticleMainHeader ArticleMainHeader--adcalItem"><div class="container"></div><div class="container"><div class="row s-flex-align-center"><div class="col-sm-9"><div class="adventCalendarRibbon"><span><a class="adventCalendarRibbon_title" href="/advent-calendar/2013/mojolicious">Mojolicious Advent Calendar 2013</a> 22æ¥ç®</span></div><h1 class="ArticleMainHeader__title">Mojoliciousã§ããããªãäºããã£ããã©ãã§èãã°ããï¼</h1><ul class="TagList"><li class="TagList__item" data-count="1072"><a class="u-link-unstyled TagList__label" href="/tags/Perl"><img alt="Perl" class="TagList__icon" src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/62b7b4bb21c57f377926995086a4723c566042e8/medium.jpg?1383884139" /><span>Perl</span></a></li><li class="TagList__item" data-count="98"><a class="u-link-unstyled TagList__label" href="/tags/Mojolicious"><img alt="Mojolicious" class="TagList__icon" src="//cdn.qiita.com/assets/icons/medium/missing.png" /><span>Mojolicious</span></a></li></ul></div><div class="col-sm-3"><div class="itemsShowHeaderStock"><ul class="list-unstyled itemsShowHeaderStock_statusList"><li><div class="itemsShowHeaderStock_count stock"><span class="fa fa-thumbs-up"></span><span class="js-likecount">5</span></div><div class="itemsShowHeaderStock_countText">ããã­</div></li><li><div class="itemsShowHeaderStock_count" content="0 UserComments" itemprop="interactionCount"><span class="fa fa-comment"></span>0</div><div class="itemsShowHeaderStock_countText">ã³ã¡ã³ã</div></li></ul></div><div class="js-likebutton" data-props="{&quot;like_status&quot;:false,&quot;like_count&quot;:5,&quot;uuid&quot;:&quot;94a1b2a5738fa3b541ae&quot;,&quot;likable_type&quot;:&quot;Article&quot;,&quot;position&quot;:&quot;article-header&quot;}"></div><ul class="list-inline ArticleMainHeader__users"><li class="js-hovercard" data-hovercard-target-name="omokawa_yasu"><a itemprop="url" href="/omokawa_yasu"><img alt="omokawa_yasu" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/34636/profile-images/1473686436" /></a></li><li class="js-hovercard" data-hovercard-target-name="clicktx"><a itemprop="url" href="/clicktx"><img alt="clicktx" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/44850/profile-images/1473761047" /></a></li><li class="js-hovercard" data-hovercard-target-name="sugawa0718"><a itemprop="url" href="/sugawa0718"><img alt="sugawa0718" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/46730/profile-images/1479113544" /></a></li><li class="js-hovercard" data-hovercard-target-name="cheesekun"><a itemprop="url" href="/cheesekun"><img alt="cheesekun" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/59644/profile-images/1473694993" /></a></li><li class="js-hovercard" data-hovercard-target-name="bori_so1"><a itemprop="url" href="/bori_so1"><img alt="bori_so1" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/3898/profile-images/1473683648" /></a></li></ul></div></div></div></div><div class="ArticleAsideHeader"><div class="container"><div class="u-flex u-space-between"><div class="u-flex u-flex-wrap"><div class="u-flex u-align-center s-pdv-5 u-flex-wrap"><div class="ArticleAsideHeader__author"><a href="/xtetsuji"><img class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/8760/profile-images/1473681145" alt="1473681145" /></a> <a class="u-link-unstyled" href="/xtetsuji">xtetsuji</a> </div><div class="ArticleAsideHeader__date"><span data-toggle="tooltip" title="2013å¹´12æ23æ¥ã«æç¨¿"><time datetime="2013-12-23T15:32:16+09:00" itemprop="dateModified">2013å¹´12æ23æ¥</time>ã«æ´æ°</span></div></div><div class="u-flex u-align-center s-pdv-5 mobile-hidden"><div class="ArticleAsideHeader__revision"> <a data-toggle="tooltip" title="ç·¨éå±¥æ­´" href="/xtetsuji/items/94a1b2a5738fa3b541ae/revisions"><span class="fa fa-history"></span></a><span class="ArticleAsideHeader__revisionCount">2</span></div></div><div class="u-flex u-align-center s-pdv-5 mobile-hidden"></div></div><div class="u-flex u-align-center s-flex-justiry-between s-pdv-5 u-shrink-0"><div class="ArticleAsideHeader__stock"><div class="js-stockbutton" data-position="top" data-props="{&quot;stock_status&quot;:false}"></div></div><div class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-ellipsis-h fa-lg"></span></a><ul class="dropdown-menu dropdown-menu-right"><li class="dropdown__item--mobile"><a href="/xtetsuji/items/94a1b2a5738fa3b541ae/revisions"><span class="fa fa-fw fa-history"></span> ç·¨éå±¥æ­´<span>(2)</span></a></li><li><a href="/xtetsuji/items/94a1b2a5738fa3b541ae.md"><span class="fa fa-fw fa-file-text-o"></span> Markdownã§æ¬æãè¦ã</a></li><li><a data-target=".js-report-form" data-toggle="modal" href="#"><span class="fa fa-fw fa-flag"></span> åé¡ãããæç¨¿ãå ±åãã</a></li></ul></div></div></div></div></div><div class="container"><div class="row" id="article-body-wrapper"><div class="col-sm-9"><section class="markdownContent markdownContent-headingEnabled js-task-list-container clearfix position-relative" id="item-94a1b2a5738fa3b541ae" itemprop="articleBody"><div class="alert alert-warning"><i class="fa fa-clock-o"></i> ãã®è¨äºã¯æçµæ´æ°æ¥ãã1å¹´ä»¥ä¸ãçµéãã¦ãã¾ãã</div><p>æ¥æ¬èªãªã½ã¼ã¹ãåå®ãã¤ã¤ããMojoliciousãå½åã§ãããã§ãããä¸ççã«ãã¦ã¼ã¶æ°ãå¤ããµã¼ãã¹ã§ã¯ããã¾ããããªããªãå·ä½çãªæ´»ç¨äºä¾ãåºã¦ãã¦ããªãæãããã¾ãã</p>
+
+<p>æ½å¨çã«Mojoliciousã®å½åã¦ã¼ã¶ã¯å¤ãã¨æãã®ã§ãããã§ã¯å°ã£ãã¨ãã«ã©ãã§èãã°ããã®ããããããããªãã¦ã¼ã¶ãå¤ãã¨æãã¾ãã®ã§ãç§ãç¥ã£ã¦ããå ´æãããã¤ããç´¹ä»ãã¾ãã</p>
+
+<p>ãªããç§èªèº«ãè±èªãè¦æãªã®ã§ãããã§ã¯æ¥æ¬èªã§è³ªåãåºæ¥ãå ´æã«éå®ãã¦ãã¾ãã</p>
+
+<h2>
+<span id="åå°ã®perl-mongerã®éã¾ãå°åpm" class="fragment"></span><a href="#%E5%90%84%E5%9C%B0%E3%81%AEperl-monger%E3%81%AE%E9%9B%86%E3%81%BE%E3%82%8A%E5%9C%B0%E5%9F%9Fpm"><i class="fa fa-link"></i></a>åå°ã®Perl Mongerã®éã¾ããå°å.pmã</h2>
+
+<p>Hachioji.pm ãªã©ã® Perl Monger ã®éã¾ãã«åå ããã¨ããã®ä¸­ã«ä¸äººãããã¯Mojoliciousã¦ã¼ã¶ããããã¨ã§ããããããããäººã«è³ªåãã¶ã¤ãã¦ã¿ãã¨è¯ãã§ãããã <strong>é¡ã¨é¡ãä»ãåããã¦è´ããã¨ãåºæ¥ãçã®å£°ã¯ä¸çªã§ãã</strong></p>
+
+<p>ä¸»ã ã£ãå°å.pmãåæãã¦ããã¾ãããè¿ãã®å°å.pmã«è¶³ãéãã§ã¿ãã¨ç¸è«ç¸æãè¦ã¤ããããããã¾ãããã</p>
+
+<ul>
+<li>Hokkaido.pm</li>
+<li>Sendai.pm</li>
+<li>Niigata.pm</li>
+<li>Shibuya.pm</li>
+<li>Chiba.pm</li>
+<li>Yokohama.pm</li>
+<li>Kamakura.pm</li>
+<li>Hachioji.pm</li>
+<li>Machida.pm</li>
+<li>Mishima.pm</li>
+<li>Nagoya.pm</li>
+<li>Kansai.pm</li>
+<li>Namba.pm</li>
+<li>Kyoto.pm</li>
+<li>Fukuoka.pm</li>
+<li>Yomitan.pm</li>
+</ul>
+
+<h2>
+<span id="perlå¥å­¦å¼" class="fragment"></span><a href="#perl%E5%85%A5%E5%AD%A6%E5%BC%8F"><i class="fa fa-link"></i></a>Perlå¥å­¦å¼</h2>
+
+<p><a href="http://www.perl-entrance.org" rel="nofollow noopener" target="_blank">Perlå¥å­¦å¼</a>ã¨ããåå¼·ä¼ã§ã¯ãç¾å¨ã®ã«ãªã­ã¥ã©ã ã®æå¾ã«Mojoliciousã§ç°¡åãªã¦ã§ããµã¼ãã¹ãä½ãã¨ããç§ç®ãããã¾ããããã«åºã¦ã¿ããã¨ã§ãMojoliciousã®åºç¤ã®åºç¤ãåããã¾ãã</p>
+
+<p>ã¾ãç´æ¥ã«ãªã­ã¥ã©ã ã«é¢ä¿ãªãMojoliciousã®ã¢ããã³ã¹ããªè³ªåãããã®æã«Mojoliciousã«è©³ãããµãã¼ã¿ã¼ãããã°ç­ãã¦ããããä¸ç·ã«èãã¦ãããããããã¾ããã</p>
+
+<h2>
+<span id="mojoliciousæ¥æ¬èªã¡ã¼ãªã³ã°ãªã¹ã" class="fragment"></span><a href="#mojolicious%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%A1%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AA%E3%82%B9%E3%83%88"><i class="fa fa-link"></i></a>Mojoliciousæ¥æ¬èªã¡ã¼ãªã³ã°ãªã¹ã</h2>
+
+<ul>
+<li><a href="https://groups.google.com/forum/#!forum/mojolicious_ja" class="autolink" rel="nofollow noopener" target="_blank">https://groups.google.com/forum/#!forum/mojolicious_ja</a></li>
+</ul>
+
+<p>Googleã°ã«ã¼ããä½¿ã£ãã¡ã¼ãªã³ã°ãªã¹ãã</p>
+
+<p>2013å¹´12æç¾å¨ãä½æå½æã®æç¨¿ãããã¤ãããã ãã§æ´»çºã§ã¯ãªãããã§ãããã ãæç¨¿ãã¦ã¿ãã¨è¿äºãè¿ã£ã¦ããããããã¾ããã</p>
+
+<h2>
+<span id="irc-freenode-ã®-mojolicious-ja-ãã£ã³ãã«" class="fragment"></span><a href="#irc-freenode-%E3%81%AE-mojolicious-ja-%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB"><i class="fa fa-link"></i></a>IRC Freenode ã® #mojolicious-ja ãã£ã³ãã«</h2>
+
+<p>Freenode ã«ã¯ #mojolicious-ja ã¨ãããã£ã³ãã«ãããã¾ããæãèåãªæ¹ãã«ãã£ã¦çºè¨ãè¡ããã¦ããããã§ãã</p>
+
+<p>IRC ã Freenode ã«ã¤ãã¦ã®èª¬æã¯å²æãã¾ããé©å®æ¤ç´¢ãã¦ã¿ã¦ãã ããã</p>
+
+<p>ãã£ã³ãã«ã®æå­ã³ã¼ãã¯UTF-8ã§ãã</p>
+
+<h2>
+<span id="lingrã®ãã£ã³ãã«mojoliciousã®è©±é¡ãæ¥æ¬èªã§" class="fragment"></span><a href="#lingr%E3%81%AE%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%ABmojolicious%E3%81%AE%E8%A9%B1%E9%A1%8C%E3%82%92%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%A7"><i class="fa fa-link"></i></a>Lingrã®ãã£ã³ãã«ãMojoliciousã®è©±é¡ãæ¥æ¬èªã§ã</h2>
+
+<ul>
+<li><a href="http://lingr.com/signup?letmein=mojo_jp" class="autolink" rel="nofollow noopener" target="_blank">http://lingr.com/signup?letmein=mojo_jp</a></li>
+<li><a href="http://lingr.com/room/mojo_jp" class="autolink" rel="nofollow noopener" target="_blank">http://lingr.com/room/mojo_jp</a></li>
+</ul>
+
+<p>ä»¥åäºåç°ã§è¡ããã<a href="http://atnd.org/events/43807" rel="nofollow noopener" target="_blank">Mojoliciousãmod_perlãè©±é¡ã«ããé£²ã¿ä¼ #2</a>ã§ä½æããã¾ãããåãLingrã«ãã<a href="http://lingr.com/room/perl_jp" rel="nofollow noopener" target="_blank">ãPerlã®è©±é¡ãæ¥æ¬èªã§ã</a>ã®çä¼¼ã</p>
+
+<p>Lingrã¸ã®ç»é²ãå¿è¦ã§ããããã»ã©æéã§ã¯ãªããIRCããããã¼ãã«ãä½ãã®ã§ã¯ãªããã¨æãã¾ããç¾å¨ã¯ããã»ã©ã¡ã³ãã¼æ°ãå¤ããªããæ°è»½ã«è³ªåã§ããå ´æã¨ãããã§ããããå°ãªãã¨ãç§ã¯å¸¸ã«ã¦ã©ããããããã«ãã¦ãã¾ãã</p>
+
+<hr>
+
+<p>ãã®ä»ã«ãæãã¤ãããè¿½è¨ãã¦ããã¾ãã</p>
+<div class="hidden"><form class="js-task-list-update" action="/xtetsuji/items/94a1b2a5738fa3b541ae" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="patch" /><input type="hidden" name="authenticity_token" value="aW1CpiencYXgXEfTlHAw+TGO+050gG1b2/E4U6f80qZhP4HooH+ND400ymtngF2yKk4Qy5rvlV2FX5rVIKquXw==" /><input type="hidden" name="updated_at_confirmation_in_unixtime" id="updated_at_confirmation_in_unixtime" value="1387780336" class="js-task-list-updated-at" /><textarea name="raw_body" id="raw_body" class="js-task-list-field">
+
+æ¥æ¬èªãªã½ã¼ã¹ãåå®ãã¤ã¤ããMojoliciousãå½åã§ãããã§ãããä¸ççã«ãã¦ã¼ã¶æ°ãå¤ããµã¼ãã¹ã§ã¯ããã¾ããããªããªãå·ä½çãªæ´»ç¨äºä¾ãåºã¦ãã¦ããªãæãããã¾ãã
+
+æ½å¨çã«Mojoliciousã®å½åã¦ã¼ã¶ã¯å¤ãã¨æãã®ã§ãããã§ã¯å°ã£ãã¨ãã«ã©ãã§èãã°ããã®ããããããããªãã¦ã¼ã¶ãå¤ãã¨æãã¾ãã®ã§ãç§ãç¥ã£ã¦ããå ´æãããã¤ããç´¹ä»ãã¾ãã
+
+ãªããç§èªèº«ãè±èªãè¦æãªã®ã§ãããã§ã¯æ¥æ¬èªã§è³ªåãåºæ¥ãå ´æã«éå®ãã¦ãã¾ãã
+
+##åå°ã®Perl Mongerã®éã¾ããå°å.pmã
+
+Hachioji.pm ãªã©ã® Perl Monger ã®éã¾ãã«åå ããã¨ããã®ä¸­ã«ä¸äººãããã¯Mojoliciousã¦ã¼ã¶ããããã¨ã§ããããããããäººã«è³ªåãã¶ã¤ãã¦ã¿ãã¨è¯ãã§ãããã **é¡ã¨é¡ãä»ãåããã¦è´ããã¨ãåºæ¥ãçã®å£°ã¯ä¸çªã§ãã**
+
+ä¸»ã ã£ãå°å.pmãåæãã¦ããã¾ãããè¿ãã®å°å.pmã«è¶³ãéãã§ã¿ãã¨ç¸è«ç¸æãè¦ã¤ããããããã¾ãããã
+
+- Hokkaido.pm
+- Sendai.pm
+- Niigata.pm
+- Shibuya.pm
+- Chiba.pm
+- Yokohama.pm
+- Kamakura.pm
+- Hachioji.pm
+- Machida.pm
+- Mishima.pm
+- Nagoya.pm
+- Kansai.pm
+- Namba.pm
+- Kyoto.pm
+- Fukuoka.pm
+- Yomitan.pm
+
+##Perlå¥å­¦å¼
+
+[Perlå¥å­¦å¼](http://www.perl-entrance.org)ã¨ããåå¼·ä¼ã§ã¯ãç¾å¨ã®ã«ãªã­ã¥ã©ã ã®æå¾ã«Mojoliciousã§ç°¡åãªã¦ã§ããµã¼ãã¹ãä½ãã¨ããç§ç®ãããã¾ããããã«åºã¦ã¿ããã¨ã§ãMojoliciousã®åºç¤ã®åºç¤ãåããã¾ãã
+
+ã¾ãç´æ¥ã«ãªã­ã¥ã©ã ã«é¢ä¿ãªãMojoliciousã®ã¢ããã³ã¹ããªè³ªåãããã®æã«Mojoliciousã«è©³ãããµãã¼ã¿ã¼ãããã°ç­ãã¦ããããä¸ç·ã«èãã¦ãããããããã¾ããã
+
+##Mojoliciousæ¥æ¬èªã¡ã¼ãªã³ã°ãªã¹ã
+
+- https://groups.google.com/forum/#!forum/mojolicious_ja
+
+Googleã°ã«ã¼ããä½¿ã£ãã¡ã¼ãªã³ã°ãªã¹ãã
+
+2013å¹´12æç¾å¨ãä½æå½æã®æç¨¿ãããã¤ãããã ãã§æ´»çºã§ã¯ãªãããã§ãããã ãæç¨¿ãã¦ã¿ãã¨è¿äºãè¿ã£ã¦ããããããã¾ããã
+
+##IRC Freenode ã® #mojolicious-ja ãã£ã³ãã«
+
+Freenode ã«ã¯ #mojolicious-ja ã¨ãããã£ã³ãã«ãããã¾ããæãèåãªæ¹ãã«ãã£ã¦çºè¨ãè¡ããã¦ããããã§ãã
+
+IRC ã Freenode ã«ã¤ãã¦ã®èª¬æã¯å²æãã¾ããé©å®æ¤ç´¢ãã¦ã¿ã¦ãã ããã
+
+ãã£ã³ãã«ã®æå­ã³ã¼ãã¯UTF-8ã§ãã
+
+##Lingrã®ãã£ã³ãã«ãMojoliciousã®è©±é¡ãæ¥æ¬èªã§ã
+
+- http://lingr.com/signup?letmein=mojo_jp
+- http://lingr.com/room/mojo_jp
+
+ä»¥åäºåç°ã§è¡ããã[Mojoliciousãmod_perlãè©±é¡ã«ããé£²ã¿ä¼ #2](http://atnd.org/events/43807)ã§ä½æããã¾ãããåãLingrã«ãã[ãPerlã®è©±é¡ãæ¥æ¬èªã§ã](http://lingr.com/room/perl_jp)ã®çä¼¼ã
+
+Lingrã¸ã®ç»é²ãå¿è¦ã§ããããã»ã©æéã§ã¯ãªããIRCããããã¼ãã«ãä½ãã®ã§ã¯ãªããã¨æãã¾ããç¾å¨ã¯ããã»ã©ã¡ã³ãã¼æ°ãå¤ããªããæ°è»½ã«è³ªåã§ããå ´æã¨ãããã§ããããå°ãªãã¨ãç§ã¯å¸¸ã«ã¦ã©ããããããã«ãã¦ãã¾ãã
+
+----
+
+ãã®ä»ã«ãæãã¤ãããè¿½è¨ãã¦ããã¾ãã
+
+</textarea><input type="submit" name="commit" value="Save changes" data-disable-with="Save changes" /></form></div></section></div><div class="col-sm-3"><div class="socialButtons"><div class="socialButtons_twitter"><a class="twitter-share-button" data-text="Mojoliciousã§ããããªãäºããã£ããã©ãã§èãã°ããï¼ by @xtetsuji on @Qiita" data-url="http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" href="https://twitter.com/share">ãã¤ã¼ã</a></div><div class="socialButtons_hatebu"><a class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" data-hatena-bookmark-title="Mojoliciousã§ããããªãäºããã£ããã©ãã§èãã°ããï¼" href="http://b.hatena.ne.jp/entry/http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" title="ã¯ã¦ãã«è¿½å "><img alt="ã¯ã¦ãã«è¿½å " height="20" src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" style="border: none;" width="20" /></a><script async="async" charset="utf-8" src="https://b.st-hatena.com/js/bookmark_button.js" type="text/javascript"></script></div><div class="socialButtons_googlePlus"><div class="g-plusone" data-href="http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" data-size="medium"></div></div><div class="socialButtons_facebook"><div class="fb-like" data-action="like" data-href="http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" data-layout="button_count" data-share="false" data-show-faces="false"></div></div><div class="socialButtons_pocket"><a class="pocket-btn" data-lang="en" data-pocket-count="horizontal" data-pocket-label="pocket"></a></div></div><section class="itemsShowAuthorInfo" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><a href="/xtetsuji"><img alt="" class="itemsShowAuthorInfo_userIcon" itemprop="image" src="https://qiita-image-store.s3.amazonaws.com/0/8760/profile-images/1473681145" /></a><div class="itemsShowAuthorInfo_profileStats"><strong class="itemsShowAuthorInfo_userName" itemprop="name"><a itemprop="url" href="/xtetsuji">xtetsuji</a></strong><div class="itemsShowAuthorInfo_contribution"><span class="itemsShowAuthorInfo_count">2410</span><span class="itemsShowAuthorInfo_unit">Contribution</span></div><div data-react-class="T.UserFollowButton" data-react-props="{&quot;url_name&quot;:&quot;xtetsuji&quot;,&quot;initial_followed_by&quot;:false,&quot;size&quot;:&quot;btn-xs&quot;,&quot;position&quot;:&quot;author-info&quot;}"></div></div><section class="itemsShowAuthorPopularItems"><h5 class="itemsShowAuthorPopularItems_sectionTitle">äººæ°ã®æç¨¿</h5><ul class="itemsShowAuthorPopularItems_posts list-unstyled"><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/xtetsuji/items/555a1ef19ed21ee42873">GitHubã§Fork/cloneãããªãã¸ããªãæ¬å®¶ãªãã¸ããªã«è¿½å¾ãã</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/xtetsuji/items/381dc17241bda548045d">ä½ãããªãçµã¿è¾¼ã¿ã³ãã³ã &quot;:&quot; ï¼ã³ã­ã³ï¼ã®ä½¿ãé</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/xtetsuji/items/05f6f4c1b17854cdd75b">pecoã®åºç¤ã®åºç¤</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/xtetsuji/items/31bc53e92d94b1602b5d">ããã«ç´ æ©ãç®çã®ãã£ã¬ã¯ããªã«cdãããããã®ããã®Tips</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/xtetsuji/items/e8b61bb39c41b7a9345e">ããã¯ãã¼ã¯ã¬ãããä½ãã¨ãã®Tips</a></li></ul></section><section class="itemsShowAuthorInfo_organization"><h5 class="itemsShowAuthorInfo_organizationTitle">Organization</h5><span itemprop="memberOf" itemscope="" itemtype="http://schema.org/Organization"><a itemprop="url" href="/organizations/gaiax"><img alt="æ ªå¼ä¼ç¤¾ã¬ã¤ã¢ãã¯ã¹" class="itemsShowAuthorInfo_organizationLogo" itemprop="image" src="https://s3-ap-northeast-1.amazonaws.com/qiita-organization-image/646b13eb1e51a484163f320913d23a40d3f40fe1/original.jpg?1468893400" /></a></span></section></section><div class="scroll-chaser"><div class="google-adsense"><style>.test-text-responsible { width: 200px; height: 200px; }@media(min-width: 1200px) {  .test-text-responsible { width: 250px; height: 250px; }}@media(max-width: 979px) and (min-width: 768px) {  .test-text-responsible { width: 120px; height: 240px; }}@media(max-width: 767px) {  .test-text-responsible { width: 320px; height: 50px; }}</style><script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle test-text-responsible" data-ad-client="ca-pub-8127218772604357" data-ad-slot="3880091879" style="display:inline-block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div data-react-class="T.Toc" data-react-props="{&quot;body&quot;:&quot;\u003cul\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#%E5%90%84%E5%9C%B0%E3%81%AEperl-monger%E3%81%AE%E9%9B%86%E3%81%BE%E3%82%8A%E5%9C%B0%E5%9F%9Fpm\&quot;\u003eåå°ã®Perl Mongerã®éã¾ããå°å.pmã\u003c/a\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#perl%E5%85%A5%E5%AD%A6%E5%BC%8F\&quot;\u003ePerlå¥å­¦å¼\u003c/a\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#mojolicious%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%A1%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AA%E3%82%B9%E3%83%88\&quot;\u003eMojoliciousæ¥æ¬èªã¡ã¼ãªã³ã°ãªã¹ã\u003c/a\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#irc-freenode-%E3%81%AE-mojolicious-ja-%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB\&quot;\u003eIRC Freenode ã® #mojolicious-ja ãã£ã³ãã«\u003c/a\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#lingr%E3%81%AE%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%ABmojolicious%E3%81%AE%E8%A9%B1%E9%A1%8C%E3%82%92%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%A7\&quot;\u003eLingrã®ãã£ã³ãã«ãMojoliciousã®è©±é¡ãæ¥æ¬èªã§ã\u003c/a\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n&quot;,&quot;wrapper&quot;:&quot;#article-body-wrapper&quot;}"></div></div></div><div class="row"><div class="col-sm-9"><div class="ArticleFooter__menu"><div class="s-flex-align-center"><div class="js-likebutton" data-props="{&quot;like_status&quot;:false,&quot;like_count&quot;:5,&quot;show_count&quot;:true,&quot;uuid&quot;:&quot;94a1b2a5738fa3b541ae&quot;,&quot;likable_type&quot;:&quot;Article&quot;,&quot;position&quot;:&quot;article-footer&quot;}"></div><div class="ArticleFooter__userList"><div class="ArticleFooter__user"><div class="js-hovercard" data-hovercard-target-name="omokawa_yasu"><a itemprop="url" href="/omokawa_yasu"><img alt="omokawa_yasu" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/34636/profile-images/1473686436" /></a></div></div><div class="ArticleFooter__user"><div class="js-hovercard" data-hovercard-target-name="clicktx"><a itemprop="url" href="/clicktx"><img alt="clicktx" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/44850/profile-images/1473761047" /></a></div></div><div class="ArticleFooter__user"><div class="js-hovercard" data-hovercard-target-name="sugawa0718"><a itemprop="url" href="/sugawa0718"><img alt="sugawa0718" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/46730/profile-images/1479113544" /></a></div></div><div class="ArticleFooter__user"><div class="js-hovercard" data-hovercard-target-name="cheesekun"><a itemprop="url" href="/cheesekun"><img alt="cheesekun" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/59644/profile-images/1473694993" /></a></div></div><div class="ArticleFooter__user"><div class="js-hovercard" data-hovercard-target-name="bori_so1"><a itemprop="url" href="/bori_so1"><img alt="bori_so1" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/3898/profile-images/1473683648" /></a></div></div></div></div><div class="u-flex u-align-center"><div class="ArticleFooter__stock"><div class="js-stockbutton" data-position="footer_menu" data-props="{&quot;stock_status&quot;:false}"></div></div><div class="ArticleFooter__editRequest"><a class="u-link-no-underline" data-toggle="tooltip" title="æç¨¿èã«è¨äºãããè¯ãããããã®ææ¡ãã§ãã¾ã ðª" href="/drafts/94a1b2a5738fa3b541ae/edit"><span class="fa fa-send-o fa-lg"></span> <span>ç·¨éãªã¯ã¨ã¹ã</span></a></div><div class="dropdown ArticleFooter__dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-ellipsis-h"></span></a><ul class="dropdown-menu dropdown-menu-right"><li><a href="/xtetsuji/items/94a1b2a5738fa3b541ae.md"><span class="fa fa-fw fa-file-text-o"></span> Markdownã§æ¬æãè¦ã</a></li><li><a data-target=".js-report-form" data-toggle="modal" href="#"><i class="fa fa-fw fa-flag"></i> åé¡ãããæç¨¿ãå ±åãã</a></li></ul></div></div></div><div class="itemsShowBody_adventCalendar"><div class="itemsShowBody_adventCalendar_header"><i class="fa fa-fw fa-calendar"></i> ãã®æç¨¿ã¯ <a class="title" href="/advent-calendar/2013/mojolicious">Mojolicious Advent Calendar 2013</a> ã® <span class="date">22æ¥ç®</span>ã®è¨äºã§ãã</div><ul class="itemsShowBody_adventCalendar_nav list-unstyled"><li class="itemsShowBody_adventCalendar_neighborItem itemsShowBody_adventCalendar_neighborItem-prev"><span class="itemsShowBody_adventCalendar_date"><i class="fa fa-fw fa-arrow-circle-left"></i> 21æ¥ç®ã®è¨äº:</span><span class="itemsShowBody_adventCalendar_title"><img alt="yusukebe" class="itemsShowBody_adventCalendar_icon" src="https://qiita-image-store.s3.amazonaws.com/0/22289/profile-images/1473683539" width="18" height="18" /> <a class="itemsShowBody_adventCalendar_link" href="/yusukebe/items/7797251f82a09726ae73">Mojoliciousãä½¿ã£ã¦ãããµã¼ãã¹ãããã¯ä¼æ¥­</a></span></li><li class="itemsShowBody_adventCalendar_neighborItem itemsShowBody_adventCalendar_neighborItem-next"><span class="itemsShowBody_adventCalendar_date"><i class="fa fa-fw fa-arrow-circle-right"></i> 23æ¥ç®ã®è¨äº:</span><span class="itemsShowBody_adventCalendar_title"><img alt="hayajo" class="itemsShowBody_adventCalendar_icon" src="https://qiita-image-store.s3.amazonaws.com/0/10459/profile-images/1473681714" width="18" height="18" /> <a class="itemsShowBody_adventCalendar_link" href="/hayajo/items/e0b3a5c0b6dd76636c58">Mojoliciousã§CLI</a></span></li></ul></div><div class="itemsShowBody_articleColumnFooter"><div class="socialButtons"><div class="socialButtons_twitter"><a class="twitter-share-button" data-text="Mojoliciousã§ããããªãäºããã£ããã©ãã§èãã°ããï¼ by @xtetsuji on @Qiita" data-url="http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" href="https://twitter.com/share">ãã¤ã¼ã</a></div><div class="socialButtons_hatebu"><a class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" data-hatena-bookmark-title="Mojoliciousã§ããããªãäºããã£ããã©ãã§èãã°ããï¼" href="http://b.hatena.ne.jp/entry/http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" title="ã¯ã¦ãã«è¿½å "><img alt="ã¯ã¦ãã«è¿½å " height="20" src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" style="border: none;" width="20" /></a><script async="async" charset="utf-8" src="https://b.st-hatena.com/js/bookmark_button.js" type="text/javascript"></script></div><div class="socialButtons_googlePlus"><div class="g-plusone" data-href="http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" data-size="medium"></div></div><div class="socialButtons_facebook"><div class="fb-like" data-action="like" data-href="http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae" data-layout="button_count" data-share="false" data-show-faces="false"></div></div><div class="socialButtons_pocket"><a class="pocket-btn" data-lang="en" data-pocket-count="horizontal" data-pocket-label="pocket"></a></div></div></div><div class="itemsShowComment_wrapper" id="comments"><div data-react-class="T.CommentListContainer" data-react-props="{&quot;currentUser&quot;:null,&quot;initialComments&quot;:[],&quot;monthly_public_image_uploadable_size_limit&quot;:null,&quot;total_uploaded_public_image_size_in_current_month&quot;:null,&quot;item&quot;:{&quot;id&quot;:38603,&quot;uuid&quot;:&quot;94a1b2a5738fa3b541ae&quot;,&quot;suspended&quot;:false,&quot;secret&quot;:false},&quot;owner&quot;:{&quot;url_name&quot;:&quot;xtetsuji&quot;},&quot;is_team&quot;:false,&quot;is_project&quot;:false,&quot;logged_in&quot;:false,&quot;polling&quot;:false,&quot;mention_candidates&quot;:[{&quot;id&quot;:8760,&quot;url_name&quot;:&quot;xtetsuji&quot;,&quot;profile_image_url&quot;:&quot;https://qiita-image-store.s3.amazonaws.com/0/8760/profile-images/1473681145&quot;}]}">Comments Loading...</div></div></div></div></div></article><div class="js-report-form modal fade reportForm"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button name="button" type="submit" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">åé¡ãããæç¨¿ãå ±åãã</h4></div><div class="modal-body"><form action="/reports" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DuI/FLoSx09t0ntUbjwf5RH9H8qYdCJCDoPqb7yA4bYGsPxaPco7xQC69uydzHKuCj30T3Yb2kRQLUjpO9adTw==" /><input type="hidden" name="redirect_path" id="redirect_path" value="/xtetsuji/items/94a1b2a5738fa3b541ae" /><input type="hidden" name="item_uuid" id="item_uuid" value="94a1b2a5738fa3b541ae" /><p>ãã®æç¨¿ã«ã©ã®ãããªåé¡ãããã¾ããï¼</p><br /><div class="form-group"><ul class="list-unstyled"><li><label><input type="radio" name="report_type" id="report_type_spam" value="spam" required="required" /> ã¹ãã ã§ã </label></li><li><label><input type="radio" name="report_type" id="report_type_harassment" value="harassment" required="required" /> æ»æçã¾ãã¯è¿·æãªåå®¹ãå«ãã§ãã¾ã </label></li><li><label><input type="radio" name="report_type" id="report_type_inappropriate_content" value="inappropriate_content" required="required" /> ä¸é©åãªåå®¹ãå«ãã§ãã¾ã </label></li></ul></div><div class="reportForm_submitButtonContainer"><button name="button" type="submit" class="btn btn-primary reportForm_submitButton"><i class="fa fa-send"></i> éä¿¡</button></div></form></div></div></div></div><script id="js-item" type="application/json">{ "url": "http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae", "id": 38603, "uuid": "94a1b2a5738fa3b541ae" }</script><script class="js-user" type="application/json">{&quot;id&quot;:8760,&quot;url_name&quot;:&quot;xtetsuji&quot;,&quot;profile_image_url&quot;:&quot;https://qiita-image-store.s3.amazonaws.com/0/8760/profile-images/1473681145&quot;}</script><script language="JavaScript" src="//cdn.bigmining.com/private/js/qiita_bigmining.js" type="text/javascript"></script></div><footer class="footer"><div class="footer_inner"><div class="footer_container"><ul class="footer_links-left"><li class="footer_link"><a class="footer_copyright" href="http://increments.co.jp">Â© 2017 Increments Inc.</a></li><li class="footer_link"><a href="http://qiita.com/terms">å©ç¨è¦ç´</a></li><li class="footer_link"><a href="http://qiita.com/privacy">ãã©ã¤ãã·ã¼</a></li><li class="footer_link"><a href="http://help.qiita.com">ãã«ã</a></li><li class="footer_link"><a href="https://increments.zendesk.com/anonymous_requests/new">ãåãåãã</a></li></ul><ul class="footer_links-right"><li class="footer_link"><a href="http://qiita.com/about">Qiitaã¨ã¯</a></li><li class="footer_link"><a href="http://blog.qiita.com">ãã­ã°</a></li><li class="footer_link"><a href="http://qiita.com/api/v2/docs">API</a></li><li class="footer_link"><a href="https://teams.qiita.com/">Team</a></li><li class="footer_link"><a href="http://kobito.qiita.com">Kobito</a></li><li class="footer_link"><a class="js-public-form-feedback-link" data-target=".js-feedback-form" data-toggle="modal" href=""><i class="fa fa-heart"></i> ãæè¦ <i class="fa fa-caret-down"></i></a></li></ul></div></div></footer><div class="js-feedback-form modal fade feedbackForm"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button name="button" type="submit" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">ãæè¦</h4></div><div class="modal-body"><form class="js-feedback-form-form" action="/feedbacks" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xhAOos62UaKeUzJN3xLYZYHn9BdshtVTGRubYFo0DUzOQs3sSW6tKPM7v/Us4rUumicfkoLpLVVHtTnm3WJxtQ==" /><input type="hidden" name="redirect_path" id="redirect_path" value="/xtetsuji/items/94a1b2a5738fa3b541ae" /><div class="form-group"><textarea name="feedback[message]" id="feedback_message" class="form-control js-feedback-form-text-area" placeholder="Qiitaã«ã¤ãã¦ã®ãæè¦ããèãããã ããã" required="required" rows="5">
+</textarea></div><div class="feedbackForm_submitButtonContainer"><button name="button" type="submit" class="btn btn-primary feedbackForm_submitButton"><i class="fa fa-send"></i> éä¿¡</button><p class="feedbackForm_note">ããã ãããæè¦ã¸ã®è¿ä¿¡ã¯è¡ã£ã¦ããã¾ããã<br />è¿ä¿¡ã®å¿è¦ãªåå®¹ã«ã¤ãã¦ã¯ã<a href="https://increments.zendesk.com/anonymous_requests/new">ãã¡ã</a> ãããåãåãããã ããã</p></div><div style="position:fixed;top:-99999px;opacity:0.0001;"><input name="feedback[name]" type="text" /></div></form></div></div></div></div><script>// if (window.mixpanel instanceof Element) {
+//   window.mixpanel = [];
+// }
+// (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+// for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);</script><script src="http://cdn.qiita.com/assets/public-8f290bb91a21877978e3cb73e158cd77.min.js"></script><script>
+  (function () {
+    var script = document.getElementsByTagName('script')[0];
+    var load = function (src, id) {
+      var el = document.createElement('script');
+      el.async = true;
+      el.src = src;
+      el.id = id;
+      script.parentNode.insertBefore(el, script);
+    };
+      // Optimizely
+      load('//cdn.optimizely.com/js/52738645.js', 'optimizely-jssdk');
+      // Google Analytics
+      window._gaq = window._gaq || [];
+      var isCareer = location.hostname.split('.')[0] == 'career';
+      if (isCareer) {
+        window._gaq.push(['_setAccount', 'UA-24675221-11']);
+        window._gaq.push(['_setDomainName', 'qiita.com']);
+      } else {
+        window._gaq.push(['_setAccount', 'UA-24675221-1']);
+      }
+      window._gaq.push(['_setCustomVar', 1, 'logged_in', 'false', 2]);
+      window._gaq.push(['_trackPageview']);
+      var src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      load(src, 'google-analytics-jssdk');
+    // Google Analytics - Universal Analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-24675221-12', {
+          
+        });
+          ga('create', 'UA-43727208-1', { name: 'user' });
+          ga('user.send', 'pageview');
+        ga('set', 'dimension1', 'false');
+        ga('set', 'dimension3', 'false');
+      ga('require', 'displayfeatures');
+      ga('set', 'forceSSL', true);
+      ga('send', 'pageview');
+    // Google Tag Manager
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TBQWPN');
+  })();
+</script>
+</body></html>

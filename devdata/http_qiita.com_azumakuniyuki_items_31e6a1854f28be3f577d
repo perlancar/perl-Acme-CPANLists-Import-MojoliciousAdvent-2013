@@ -1,0 +1,342 @@
+<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#"><head><meta charset="UTF-8" /><title>Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã« - Qiita</title><meta content="width=device-width,initial-scale=1" name="viewport" /><meta content="
+
+Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«
+
+ãã®åConfigãã©ã°ã¤ã³ã§ä½¿ãå®ç¨çãªå¤é¨è¨­å®ãã¡ã¤ã«ã®ä¸ä¾ãæ¸ãã@azumakuniyukiã§ãã
+
+Mojoliciousã§å¤é¨è¨­å®ãã¡ã¤ã«ãä½¿ãæ¹æ³ã¯ãåãæ¸ããæ¹æ³ä»¥å¤ã«ããã¼ããã¹ã¼ãããæ¸ããã250ä¸ãã¦ã³ã­ã¼ãã¢ããªãæ¯ããBokete.pmãè¦ãã®ãããªèªåã§å®è£ããæ¹æ³ãããã¾ãã
+
+ãããã®è¨äºã§ç´¹ä»ããã¦ããè¨­å®ãã¡ã¤ã«ã¯ãPerlã®ææ³ã«ãããã£ã¦è¨è¿°ããè¨­å®ãã¡ã¤ã«ã§ãã..." name="description" /><meta content="summary" name="twitter:card" /><meta content="@Qiita" name="twitter:site" /><meta content="azumakuniyuki" name="twitter:creator" /><meta content="Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã« - Qiita" property="og:title" /><meta content="article" property="og:type" /><meta content="http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" property="og:url" /><meta content="http://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png" property="og:image" /><meta content="# Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«
+
+ãã®å[Configãã©ã°ã¤ã³ã§ä½¿ãå®ç¨çãªå¤é¨è¨­å®ãã¡ã¤ã«ã®ä¸ä¾](http://qiita.com/azumakuniyuki/items/2fcec597335d..." property="og:description" /><meta content="Qiita" property="og:site_name" /><meta content="564524038" property="fb:admins" /><link rel="shortcut icon" type="image/x-icon" href="http://cdn.qiita.com/assets/favicons/public/production-4ff10c1e1e2b5fcb353ff9cafdd56c70.ico" /><link rel="apple-touch-icon" type="image/png" href="http://cdn.qiita.com/assets/favicons/public/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png" /><link href="/opensearch.xml" rel="search" title="Qiita" type="application/opensearchdescription+xml" /><link rel="stylesheet" media="all" href="http://cdn.qiita.com/assets/public-1970acb57243128a443f18d046179546.min.css" /><meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="VdALielHJ/yod5qTeAr7b4STl5lVcJXCEnVDI/dgLuTBEYwUK3BBz5WFJ7KOhEjyj2+A61yFnzenYxIjJfw0fg==" /></head><body class="without-js" id=""><noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-TBQWPN" style="display:none;visibility:hidden" width="0"></iframe></noscript><script>
+  document.body.className = document.body.className.replace('without-js', '') + ' with-js';
+  window.Qiita = {"asset_host":"cdn.qiita.com","TLD":"com","controller_path":"public/items","controller_action":"public/items#show","controller":"items","action":"show","env":"production","flash":{},"is_landing_page":false,"is_team_page":false,"root_domain":"qiita.com","variant":null,"config":{"mixpanel":{"career":"dd35af27e959781713d63fd7ca898a8d","per_team":"c0a2116368b33b44b5029ebd2cc9b094","public":"be87616606b0e26a87689099aab2c4e5","team":"b7c0342acba2dbc8742484d98788efb3"},"default_locale":"ja","locale":"ja"},"team":null,"user":null,"GIT_BRANCH":null,"DEBUG":false};
+
+</script>
+<div class="headerContainer headerContainer-public" role="navigation"><div data-react-class="T.HeaderContainer" data-react-props="{&quot;user&quot;:null,&quot;team&quot;:null,&quot;news&quot;:{&quot;type&quot;:&quot;åé&quot;,&quot;content&quot;:&quot;QiitaãQiita:Teamãè¯ããããã¨ã³ã¸ãã¢&quot;,&quot;url&quot;:&quot;http://increments.co.jp/jobs/engineers?utm_source=qiita\u0026utm_medium=header_news&quot;},&quot;initial_unread_count&quot;:null,&quot;siteid_image&quot;:&quot;http://cdn.qiita.com/siteid-reverse.png&quot;,&quot;is_team_page&quot;:false,&quot;on_team_setting&quot;:false,&quot;show_post_menu&quot;:true,&quot;show_search_menu&quot;:true,&quot;is_fluid&quot;:false,&quot;locale&quot;:&quot;ja&quot;}"></div></div><div id="main"><ol class="itemBreadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Qiita</span></a><meta content="1" itemprop="position" /></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/items"><span itemprop="name">æç¨¿</span></a><meta content="2" itemprop="position" /></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/tags/Mojolicious"><span itemprop="name">Mojolicious</span></a><meta content="3" itemprop="position" /></li></ol><article itemscope="" itemtype="http://schema.org/Article"><div class="ArticleMainHeader ArticleMainHeader--adcalItem"><div class="container"></div><div class="container"><div class="row s-flex-align-center"><div class="col-sm-9"><div class="adventCalendarRibbon"><span><a class="adventCalendarRibbon_title" href="/advent-calendar/2013/mojolicious">Mojolicious Advent Calendar 2013</a> 14æ¥ç®</span></div><h1 class="ArticleMainHeader__title">Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«</h1><ul class="TagList"><li class="TagList__item" data-count="98"><a class="u-link-unstyled TagList__label" href="/tags/Mojolicious"><img alt="Mojolicious" class="TagList__icon" src="//cdn.qiita.com/assets/icons/medium/missing.png" /><span>Mojolicious</span></a></li><li class="TagList__item" data-count="1072"><a class="u-link-unstyled TagList__label" href="/tags/Perl"><img alt="Perl" class="TagList__icon" src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/62b7b4bb21c57f377926995086a4723c566042e8/medium.jpg?1383884139" /><span>Perl</span></a></li></ul></div><div class="col-sm-3"><div class="itemsShowHeaderStock"><ul class="list-unstyled itemsShowHeaderStock_statusList"><li><div class="itemsShowHeaderStock_count stock"><span class="fa fa-thumbs-up"></span><span class="js-likecount">0</span></div><div class="itemsShowHeaderStock_countText">ããã­</div></li><li><div class="itemsShowHeaderStock_count" content="0 UserComments" itemprop="interactionCount"><span class="fa fa-comment"></span>0</div><div class="itemsShowHeaderStock_countText">ã³ã¡ã³ã</div></li></ul></div><div class="js-likebutton" data-props="{&quot;like_status&quot;:false,&quot;like_count&quot;:0,&quot;uuid&quot;:&quot;31e6a1854f28be3f577d&quot;,&quot;likable_type&quot;:&quot;Article&quot;,&quot;position&quot;:&quot;article-header&quot;}"></div><ul class="list-inline ArticleMainHeader__users"></ul></div></div></div></div><div class="ArticleAsideHeader"><div class="container"><div class="u-flex u-space-between"><div class="u-flex u-flex-wrap"><div class="u-flex u-align-center s-pdv-5 u-flex-wrap"><div class="ArticleAsideHeader__author"><a href="/azumakuniyuki"><img class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/8856/profile-images/1478058319" alt="1478058319" /></a> <a class="u-link-unstyled" href="/azumakuniyuki">azumakuniyuki</a> </div><div class="ArticleAsideHeader__date"><span><time datetime="2013-12-12T22:23:09+09:00" itemprop="datePublished">2013å¹´12æ12æ¥</time>ã«æç¨¿</span></div></div><div class="u-flex u-align-center s-pdv-5 mobile-hidden"></div><div class="u-flex u-align-center s-pdv-5 mobile-hidden"></div></div><div class="u-flex u-align-center s-flex-justiry-between s-pdv-5 u-shrink-0"><div class="ArticleAsideHeader__stock"><div class="js-stockbutton" data-position="top" data-props="{&quot;stock_status&quot;:false}"></div></div><div class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-ellipsis-h fa-lg"></span></a><ul class="dropdown-menu dropdown-menu-right"><li><a href="/azumakuniyuki/items/31e6a1854f28be3f577d.md"><span class="fa fa-fw fa-file-text-o"></span> Markdownã§æ¬æãè¦ã</a></li><li><a data-target=".js-report-form" data-toggle="modal" href="#"><span class="fa fa-fw fa-flag"></span> åé¡ãããæç¨¿ãå ±åãã</a></li></ul></div></div></div></div></div><div class="container"><div class="row" id="article-body-wrapper"><div class="col-sm-9"><section class="markdownContent markdownContent-headingEnabled js-task-list-container clearfix position-relative" id="item-31e6a1854f28be3f577d" itemprop="articleBody"><div class="alert alert-warning"><i class="fa fa-clock-o"></i> ãã®è¨äºã¯æçµæ´æ°æ¥ãã1å¹´ä»¥ä¸ãçµéãã¦ãã¾ãã</div>
+<h1>
+<span id="configãã©ã°ã¤ã³ã§ä½¿ãjsonå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«" class="fragment"></span><a href="#config%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E3%81%A7%E4%BD%BF%E3%81%86json%E5%BD%A2%E5%BC%8F%E3%81%AE%E5%A4%96%E9%83%A8%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB"><i class="fa fa-link"></i></a>Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«</h1>
+
+<p>ãã®å<a href="http://qiita.com/azumakuniyuki/items/2fcec597335d5fd011e5" id="reference-dc11f02acf9ed9e99058">Configãã©ã°ã¤ã³ã§ä½¿ãå®ç¨çãªå¤é¨è¨­å®ãã¡ã¤ã«ã®ä¸ä¾</a>ãæ¸ãã<a href="https://twitter.com/azumakuniyuki" rel="nofollow noopener" target="_blank">@azumakuniyuki</a>ã§ãã</p>
+
+<p>Mojoliciousã§å¤é¨è¨­å®ãã¡ã¤ã«ãä½¿ãæ¹æ³ã¯ãåãæ¸ããæ¹æ³ä»¥å¤ã«ã<a href="https://twitter.com/yusukebe" rel="nofollow noopener" target="_blank">ãã¼ããã¹ã¼ãã</a>ãæ¸ããã<a href="http://qiita.com/yusukebe/items/c4d67b49f1deac5a4a80" id="reference-9cab976bbc55c84f7c6b">250ä¸ãã¦ã³ã­ã¼ãã¢ããªãæ¯ããBokete.pmãè¦ã</a>ã®ãããªèªåã§å®è£ããæ¹æ³ãããã¾ãã</p>
+
+<p>ãããã®è¨äºã§ç´¹ä»ããã¦ããè¨­å®ãã¡ã¤ã«ã¯ãPerlã®ææ³ã«ãããã£ã¦è¨è¿°ããè¨­å®ãã¡ã¤ã«ã§ããä»æ¥ã¯Perlä»¥å¤ã®ææ³ã§æ¸ããå¤é¨è¨­å®ãã¡ã¤ã«ã®ãã©ã°ã¤ã³ãç´¹ä»ãããã¨ã«ãã¾ãã</p>
+
+<h2>
+<span id="mojoliciouspluginjsonconfig" class="fragment"></span><a href="#mojoliciouspluginjsonconfig"><i class="fa fa-link"></i></a>Mojolicious::Plugin::JSONConfig</h2>
+
+<p><a href="http://mojolicio.us/perldoc/Mojolicious/Plugin/JSONConfig" rel="nofollow noopener" target="_blank">Mojolicious::Plugin::JSONConfig</a>ã¯ãã©ã°ã¤ã³ã®åç§°ã©ãããJSONã§è¨è¿°ããè¨­å®ãã¡ã¤ã«ãèª­è¾¼ãããã©ã°ã¤ã³ã§ãããã®ãã©ã°ã¤ã³ã¯æåããMojoliciousã«å«ã¾ãã¦ããã®ã§ãè¿½å ã§ã¤ã³ã¹ãã¼ã«ããäºãªãä½¿ãã¾ãã</p>
+
+<h3>
+<span id="jsonã®è¨­å®ãã¡ã¤ã«ãæºåãã" class="fragment"></span><a href="#json%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%BA%96%E5%82%99%E3%81%99%E3%82%8B"><i class="fa fa-link"></i></a>JSONã®è¨­å®ãã¡ã¤ã«ãæºåãã</h3>
+
+<p>12æ10æ¥ã«æ¸ãã<a href="http://qiita.com/azumakuniyuki/items/2fcec597335d5fd011e5">Configãã©ã°ã¤ã³ã§ä½¿ãå®ç¨çãªå¤é¨è¨­å®ãã¡ã¤ã«ã®ä¸ä¾</a>ã§åºã¦ããäºã¤ã®è¨­å®ãã¡ã¤ã«ã<code>etc/neko.conf</code>ã¨<code>etc/auth.conf</code>ãJSONã§æ¸ãç´ãã¨ãä»¥ä¸ã®ãããªæãã«ãªãã¾ãã</p>
+
+<div class="code-frame" data-lang="json">
+<div class="code-lang"><span class="bold">etc/neko.json</span></div>
+<div class="highlight"><pre>
+<span class="p">{</span>
+    <span class="nt">"site"</span><span class="p">:</span>  <span class="p">{</span>
+        <span class="nt">"maintenance"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="nt">"copyright"</span><span class="p">:</span> <span class="s2">"Copyright (C) äº¬é½å¸å½¹æãã³èª²"</span><span class="p">,</span>
+        <span class="nt">"ja"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">"name"</span><span class="p">:</span> <span class="s2">"ãã³ã®ç®¡çã·ã¹ãã "</span>
+        <span class="p">},</span>
+        <span class="nt">"en"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">"name"</span><span class="p">:</span> <span class="s2">"Stray Cats Administration System"</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+
+<div class="code-frame" data-lang="json">
+<div class="code-lang"><span class="bold">etc/auth.json</span></div>
+<div class="highlight"><pre>
+<span class="p">{</span>
+    <span class="nt">"database"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">"dbtype"</span><span class="p">:</span> <span class="s2">"MySQL"</span><span class="p">,</span>
+        <span class="nt">"dbname"</span><span class="p">:</span> <span class="s2">"nekochan"</span><span class="p">,</span>
+        <span class="nt">"hostname"</span><span class="p">:</span> <span class="s2">"192.0.2.222"</span><span class="p">,</span>
+        <span class="nt">"port"</span><span class="p">:</span> <span class="mi">3306</span><span class="p">,</span>
+        <span class="nt">"username"</span><span class="p">:</span> <span class="s2">"dbadmin"</span><span class="p">,</span>
+        <span class="nt">"passowrd"</span><span class="p">:</span> <span class="s2">"nyanko"</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+
+<p>ããã¾ã§Perlã§æ¸ãã¦ããè¨­å®ãã¡ã¤ã«ãJSONã§æ¸ãç´ããåå®¹ãä¸è¨ã«ãªãã¾ããæ¸ãæãã«ã¤ãã¦ã¯æ¬¡ã®ç¹ã«æ³¨æããªãã¨ã<code>Malformed JSON</code>ã¨ã¨ã©ã¼ãè¡¨ç¤ºããã¾ãã</p>
+
+<ul>
+<li>ã­ã¼åã <code>"åå"</code> ãªæãã§å²ã</li>
+<li>
+<code>=&gt;</code> ã <code>:</code> ã«å¤ãã</li>
+<li>æå¾ã®å¤ã®å¾ã«<code>,</code>(æè¬ã±ãã«ã³ã)ã¯æ¸ããªã(ä¾ãã°<code>"password": "nyanko",</code>ã¯ã¨ã©ã¼ã¨ãªã)</li>
+<li>ã³ã¡ã³ãã¯æ¸ããªã</li>
+</ul>
+
+<p>åå¤ãæ¹è¡ã§åºåã£ã¦åæåºæ¥ãã®ã¯è¯ãã§ããã<code>:</code>ã§åºåãã®ãè¨­å®ãã¡ã¤ã«ã£ã½ãã¦åãããããã§ãããã³ã¡ã³ããæ¸ããªãã®ãæ®å¿µãªã¨ããã§ãã</p>
+
+<h2>
+<span id="libnoranekowebpm" class="fragment"></span><a href="#libnoranekowebpm"><i class="fa fa-link"></i></a>lib/Noraneko/Web.pm</h2>
+
+<p>JSONConfigãã©ã°ã¤ã³ãä½¿ãå ´åã¯ããã©ã°ã¤ã³ã®èª­è¾¼ã¿é¨åã®ã³ã¼ããå°ãå¤ããã ãã§OKã§ãã</p>
+
+<p>12æ11æ¥ã®è¨äºã<a href="http://qiita.com/azumakuniyuki/items/23cc6b090fc72cc0eb10" id="reference-41ca93ea230b60506878">è¨­å®ãã¡ã¤ã«ããªãå ´åã®ä»£æ¿ææ®µã¨ç°¡æã¡ã³ããã¼ã¸</a>ã§ä½ã£ãã³ã¼ããJSONç¨ã«å¤ãã¦ã¿ãå·®åãä¸è¨ã®åå®¹ã§ãã</p>
+
+<div class="code-frame" data-lang="diff">
+<div class="code-lang"><span class="bold">/Noraneko/Web.pm</span></div>
+<div class="highlight"><pre>
+<span class="gh">diff --git a/lib/Noraneko/Web.pm b/lib/Noraneko/Web.pm</span>
+<span class="gh">index 5eeed45..97351fc 100644</span>
+<span class="gd">--- a/lib/Noraneko/Web.pm</span>
+<span class="gi">+++ b/lib/Noraneko/Web.pm</span>
+<span class="gu">@@ -11,13 +11,14 @@ sub startup {</span>
+     my $fail = 0;
+
+     for my $e ( 'neko', 'auth' ) {
+<span class="gd">-        my $f = $root-&gt;stringify.'/etc/'.$e.'.conf';</span>
+<span class="gi">+        my $f = $root-&gt;stringify.'/etc/'.$e.'.json';</span>
+
+         eval {
+<span class="gd">-            $conf-&gt;{ $e } = $self-&gt;plugin( 'Config', { 'file' =&gt; $f } );</span>
+<span class="gi">+            $conf-&gt;{ $e } = $self-&gt;plugin( 'JSONConfig', { 'file' =&gt; $f } );</span>
+         };
+         $conf-&gt;{ $e } ||= Noraneko::Config-&gt;$e;
+         $fail = 1 if $@;
+     }
+</pre></div>
+</div>
+
+<p>èª­è¾¼ããã¡ã¤ã«ã®æ¡å¼µå­ã¨ãã©ã°ã¤ã³ã®ååãå¤ããäºç®æãå·®åã§ãã</p>
+
+<h2>
+<span id="mojoliciouspluginymlconfig" class="fragment"></span><a href="#mojoliciouspluginymlconfig"><i class="fa fa-link"></i></a>Mojolicious::Plugin::YmlConfig</h2>
+
+<p>ããä¸ã¤ã®ææ®µãYAMLå½¢å¼ã®è¨­å®ãã¡ã¤ã«ãä½¿ããããã«ãªã<code>Mojolicious::Plugin::YmlConfig</code>ã¨ãããã©ã°ã¤ã³ã§ããJSONã®ããã¨ã¯ç°ãªããããã¯Mojoliciousã«ã¯å«ã¾ãã¦ããªããã©ã°ã¤ã³ã§ãã®ã§ãä½¿ãå ´åã¯èªåã§å¥ããå¿è¦ãããã¾ãã</p>
+
+<div class="code-frame" data-lang="text"><div class="highlight"><pre>
+% sudo cpanm Mojolicious::Plugin::YmlConfig
+--&gt; Working on Mojolicious::Plugin::YmlConfig
+...
+çµæ§é·ã
+...
+</pre></div></div>
+
+<p>ãã ããã®ãã©ã°ã¤ã³ã¯<code>Mojolicious::Plugin::Bundle</code>ã¨ãããã©ã°ã¤ã³ã®ã»ããã«å«ã¾ããç©ã§ã<a href="http://deps.cpantesters.org/?module=Mojolicious::Plugin::Bundle" rel="nofollow noopener" target="_blank">ä¾å­ããã¢ã¸ã¥ã¼ã«ãããªãå¤ã</a> <strong>ããã¾ããå§ãã§ã¯ããã¾ããã</strong></p>
+
+<p>è¨­å®ãã¡ã¤ã«ã«YAMLãä½¿ãããå ´åã¯ã<a href="https://metacpan.org/pod/YAML" rel="nofollow noopener" target="_blank">YAML</a>ã¢ã¸ã¥ã¼ã«ãä½¿ã£ã¦èªåã§ã­ã¼ããå®è£ããæ¹ãè¯ãããã§ãã</p>
+
+<h2>
+<span id="github" class="fragment"></span><a href="#github"><i class="fa fa-link"></i></a>github</h2>
+
+<p>ä¸å¿ãã¡ããã¨åããå¿éãªã®ã§ããã§èª¬æãã¦ããç®æã ãå®è£ãããã³ã®ç®¡çã¢ããªãæ´æ°ãã¦githubã«ç½®ãã¦ãã¾ããã</p>
+
+<p><a href="https://github.com/azumakuniyuki/Noraneko-Mojo-Sample" rel="nofollow noopener" target="_blank">github.com/azumakuniyuki/Noraneko-Mojo-Sample</a></p>
+
+<h2>
+<span id="ã¾ã¨ã" class="fragment"></span><a href="#%E3%81%BE%E3%81%A8%E3%82%81"><i class="fa fa-link"></i></a>ã¾ã¨ã</h2>
+
+<p>Perlãç¥ããªãäººãè¨­å®ãã¡ã¤ã«ãæ¸ãæãããããªã±ã¼ã¹ã§ã¯ãJSONã§æ¸ããæ¹ãè¦ªãã¿ãããã¨ããã®ãããããããã¾ããããã®ãããªå ´åã¯JSONConfigãã©ã°ã¤ã³ãä½¿ãã¨è¯ãã§ãããã</p>
+
+<p>ããããJSONConfigãã©ã°ã¤ã³ã§èª­è¾¼ãJSONã®è¨­å®ãã¡ã¤ã«ã«ã¯ã³ã¡ã³ããæ¸ãã¾ããããæè¬ã±ãã«ã³ããèªãããã¦ãã¾ãããããããJSONèªä½ãäººéãææ¸ããããã®ã§ã¯ãªãã¨ããæè¦ãããã¾ãã®ã§ãä¸é·ä¸ç­ã§ã¯ããã¾ãã</p>
+
+<p>Perlä»¥å¤ã®ææ³ã§è¨­å®ãã¡ã¤ã«ãè¨è¿°ãããå ´åã®æåã®æ¹æ³ã®ä¸ã¤ã¯ãYAMLããããã¾ãããJSONã¨YAMLã¯ååããå¨ãéãã¾ãããJSONãYAMLã®ãµãã»ããã¨ãã¦è¦ãªãäºãåºæ¥ãã®ã§ãè¨è¿°å¾ã®è¦ãç®ã¯ããä¼¼ã¦ãã¾ããå¥ã®è¡¨ç¾ãããã°YAMLã«å¶ç´ãå ãããã®ãJSONã§ãããJSONããå¤å°ã®å³æ ¼ããåãé¤ãããã®ãYAMLã§ãããã¨ãã£ãã¨ããã§ããããã</p>
+
+<p>è©±ãMojoliciousããå°ããããã®ã§ãããåãä»å¹´ã®å¤ããã«æ¸ãã<a href="https://github.com/azumakuniyuki/Haineko" rel="nofollow noopener" target="_blank">Haineko</a>ã¨ããã¡ã¼ã«éä¿¡ç¨HTTPãµã¼ããããã¾ãã¦ãããã§ã¯<a href="https://github.com/azumakuniyuki/Haineko/blob/master/etc/haineko.cf-example" rel="nofollow noopener" target="_blank">è¨­å®ãã¡ã¤ã«</a>ãJSON(ã¨è¨ããªããYAMLã¨ãã¦è©ä¾¡ãã¦ãã)ã§è¨è¿°ãã¦ãã¦ãè¨­å®ãã¡ã¤ã«ã«ã³ã¡ã³ããæ¸ãäºãåºæ¥ã¾ãã®ã§ãå³å¯ãªJSONããã¯è¨è¿°ããããã¨æãã¾ãã</p>
+
+<p>ãªã®ã§ãè¨­å®ãã¡ã¤ã«ã®ã­ã¼ããèªåã§å®è£ããã¨ããã®ãååæå¹ãªé¸æè¢ã§ããã¨è¨ããã§ãããã</p>
+
+<h2>
+<span id="åè" class="fragment"></span><a href="#%E5%8F%82%E8%80%83"><i class="fa fa-link"></i></a>åè</h2>
+
+<ul>
+<li><a href="http://mojolicio.us/perldoc/Mojolicious/Plugin/JSONConfig" rel="nofollow noopener" target="_blank">Mojolicious::Plugin::JSONConfig</a></li>
+<li><a href="https://metacpan.org/pod/Mojolicious::Plugin::YmlConfig" rel="nofollow noopener" target="_blank">Mojolicious::Plugin::YmlConfig</a></li>
+<li><a href="http://magazine.rubyist.net/?0009-YAML" rel="nofollow noopener" target="_blank">Rubyist Magazine - ãã­ã°ã©ãã¼ã®ããã® YAML å¥é (åç´ç·¨)</a></li>
+<li><a href="http://ja.wikipedia.org/wiki/JavaScript_Object_Notation" rel="nofollow noopener" target="_blank">JavaScript Object Notation - Wikipedia</a></li>
+<li>ä»æ¥ãåèãã³ç»åã¯ããã¾ãã</li>
+</ul>
+<div class="hidden"><form class="js-task-list-update" action="/azumakuniyuki/items/31e6a1854f28be3f577d" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="patch" /><input type="hidden" name="authenticity_token" value="CS3/KJutAoc1dqPyacmziVKHFIgT5znDpb9oI+dslWed7Hi1WZpktAiEHtOfRwAUWXsD+hoSMzYQqTkjNfCP/Q==" /><input type="hidden" name="updated_at_confirmation_in_unixtime" id="updated_at_confirmation_in_unixtime" value="1386854589" class="js-task-list-updated-at" /><textarea name="raw_body" id="raw_body" class="js-task-list-field">
+# Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«
+
+ãã®å[Configãã©ã°ã¤ã³ã§ä½¿ãå®ç¨çãªå¤é¨è¨­å®ãã¡ã¤ã«ã®ä¸ä¾](http://qiita.com/azumakuniyuki/items/2fcec597335d5fd011e5)ãæ¸ãã[@azumakuniyuki](https://twitter.com/azumakuniyuki)ã§ãã
+
+Mojoliciousã§å¤é¨è¨­å®ãã¡ã¤ã«ãä½¿ãæ¹æ³ã¯ãåãæ¸ããæ¹æ³ä»¥å¤ã«ã[ãã¼ããã¹ã¼ãã](https://twitter.com/yusukebe)ãæ¸ããã[250ä¸ãã¦ã³ã­ã¼ãã¢ããªãæ¯ããBokete.pmãè¦ã](http://qiita.com/yusukebe/items/c4d67b49f1deac5a4a80)ã®ãããªèªåã§å®è£ããæ¹æ³ãããã¾ãã
+
+ãããã®è¨äºã§ç´¹ä»ããã¦ããè¨­å®ãã¡ã¤ã«ã¯ãPerlã®ææ³ã«ãããã£ã¦è¨è¿°ããè¨­å®ãã¡ã¤ã«ã§ããä»æ¥ã¯Perlä»¥å¤ã®ææ³ã§æ¸ããå¤é¨è¨­å®ãã¡ã¤ã«ã®ãã©ã°ã¤ã³ãç´¹ä»ãããã¨ã«ãã¾ãã
+
+
+## Mojolicious::Plugin::JSONConfig
+
+[Mojolicious::Plugin::JSONConfig](http://mojolicio.us/perldoc/Mojolicious/Plugin/JSONConfig)ã¯ãã©ã°ã¤ã³ã®åç§°ã©ãããJSONã§è¨è¿°ããè¨­å®ãã¡ã¤ã«ãèª­è¾¼ãããã©ã°ã¤ã³ã§ãããã®ãã©ã°ã¤ã³ã¯æåããMojoliciousã«å«ã¾ãã¦ããã®ã§ãè¿½å ã§ã¤ã³ã¹ãã¼ã«ããäºãªãä½¿ãã¾ãã
+
+### JSONã®è¨­å®ãã¡ã¤ã«ãæºåãã
+
+12æ10æ¥ã«æ¸ãã[Configãã©ã°ã¤ã³ã§ä½¿ãå®ç¨çãªå¤é¨è¨­å®ãã¡ã¤ã«ã®ä¸ä¾](http://qiita.com/azumakuniyuki/items/2fcec597335d5fd011e5)ã§åºã¦ããäºã¤ã®è¨­å®ãã¡ã¤ã«ã`etc/neko.conf`ã¨`etc/auth.conf`ãJSONã§æ¸ãç´ãã¨ãä»¥ä¸ã®ãããªæãã«ãªãã¾ãã
+
+```json:etc/neko.json
+{
+    &quot;site&quot;:  {
+        &quot;maintenance&quot;: 0,
+        &quot;copyright&quot;: &quot;Copyright (C) äº¬é½å¸å½¹æãã³èª²&quot;,
+        &quot;ja&quot;: {
+            &quot;name&quot;: &quot;ãã³ã®ç®¡çã·ã¹ãã &quot;
+        },
+        &quot;en&quot;: {
+            &quot;name&quot;: &quot;Stray Cats Administration System&quot;
+        }
+    }
+}
+```
+
+```json:etc/auth.json
+{
+    &quot;database&quot;: {
+        &quot;dbtype&quot;: &quot;MySQL&quot;,
+        &quot;dbname&quot;: &quot;nekochan&quot;,
+        &quot;hostname&quot;: &quot;192.0.2.222&quot;,
+        &quot;port&quot;: 3306,
+        &quot;username&quot;: &quot;dbadmin&quot;,
+        &quot;passowrd&quot;: &quot;nyanko&quot;
+    }
+}
+```
+
+ããã¾ã§Perlã§æ¸ãã¦ããè¨­å®ãã¡ã¤ã«ãJSONã§æ¸ãç´ããåå®¹ãä¸è¨ã«ãªãã¾ããæ¸ãæãã«ã¤ãã¦ã¯æ¬¡ã®ç¹ã«æ³¨æããªãã¨ã`Malformed JSON`ã¨ã¨ã©ã¼ãè¡¨ç¤ºããã¾ãã
+
+* ã­ã¼åã `&quot;åå&quot;` ãªæãã§å²ã
+* `=&gt;` ã `:` ã«å¤ãã
+* æå¾ã®å¤ã®å¾ã«`,`(æè¬ã±ãã«ã³ã)ã¯æ¸ããªã(ä¾ãã°`&quot;password&quot;: &quot;nyanko&quot;,`ã¯ã¨ã©ã¼ã¨ãªã)
+* ã³ã¡ã³ãã¯æ¸ããªã
+
+åå¤ãæ¹è¡ã§åºåã£ã¦åæåºæ¥ãã®ã¯è¯ãã§ããã`:`ã§åºåãã®ãè¨­å®ãã¡ã¤ã«ã£ã½ãã¦åãããããã§ãããã³ã¡ã³ããæ¸ããªãã®ãæ®å¿µãªã¨ããã§ãã
+
+## lib/Noraneko/Web.pm
+
+JSONConfigãã©ã°ã¤ã³ãä½¿ãå ´åã¯ããã©ã°ã¤ã³ã®èª­è¾¼ã¿é¨åã®ã³ã¼ããå°ãå¤ããã ãã§OKã§ãã
+
+12æ11æ¥ã®è¨äºã[è¨­å®ãã¡ã¤ã«ããªãå ´åã®ä»£æ¿ææ®µã¨ç°¡æã¡ã³ããã¼ã¸](http://qiita.com/azumakuniyuki/items/23cc6b090fc72cc0eb10)ã§ä½ã£ãã³ã¼ããJSONç¨ã«å¤ãã¦ã¿ãå·®åãä¸è¨ã®åå®¹ã§ãã
+
+```diff:/Noraneko/Web.pm
+diff --git a/lib/Noraneko/Web.pm b/lib/Noraneko/Web.pm
+index 5eeed45..97351fc 100644
+--- a/lib/Noraneko/Web.pm
++++ b/lib/Noraneko/Web.pm
+@@ -11,13 +11,14 @@ sub startup {
+     my $fail = 0;
+ 
+     for my $e ( &#39;neko&#39;, &#39;auth&#39; ) {
+-        my $f = $root-&gt;stringify.&#39;/etc/&#39;.$e.&#39;.conf&#39;;
++        my $f = $root-&gt;stringify.&#39;/etc/&#39;.$e.&#39;.json&#39;;
+ 
+         eval {
+-            $conf-&gt;{ $e } = $self-&gt;plugin( &#39;Config&#39;, { &#39;file&#39; =&gt; $f } );
++            $conf-&gt;{ $e } = $self-&gt;plugin( &#39;JSONConfig&#39;, { &#39;file&#39; =&gt; $f } );
+         };
+         $conf-&gt;{ $e } ||= Noraneko::Config-&gt;$e;
+         $fail = 1 if $@;
+     }
+```
+
+èª­è¾¼ããã¡ã¤ã«ã®æ¡å¼µå­ã¨ãã©ã°ã¤ã³ã®ååãå¤ããäºç®æãå·®åã§ãã
+
+## Mojolicious::Plugin::YmlConfig
+
+ããä¸ã¤ã®ææ®µãYAMLå½¢å¼ã®è¨­å®ãã¡ã¤ã«ãä½¿ããããã«ãªã`Mojolicious::Plugin::YmlConfig`ã¨ãããã©ã°ã¤ã³ã§ããJSONã®ããã¨ã¯ç°ãªããããã¯Mojoliciousã«ã¯å«ã¾ãã¦ããªããã©ã°ã¤ã³ã§ãã®ã§ãä½¿ãå ´åã¯èªåã§å¥ããå¿è¦ãããã¾ãã
+
+```
+% sudo cpanm Mojolicious::Plugin::YmlConfig
+--&gt; Working on Mojolicious::Plugin::YmlConfig
+...
+çµæ§é·ã
+...
+```
+
+ãã ããã®ãã©ã°ã¤ã³ã¯`Mojolicious::Plugin::Bundle`ã¨ãããã©ã°ã¤ã³ã®ã»ããã«å«ã¾ããç©ã§ã[ä¾å­ããã¢ã¸ã¥ã¼ã«ãããªãå¤ã](http://deps.cpantesters.org/?module=Mojolicious::Plugin::Bundle) **ããã¾ããå§ãã§ã¯ããã¾ããã**
+
+è¨­å®ãã¡ã¤ã«ã«YAMLãä½¿ãããå ´åã¯ã[YAML](https://metacpan.org/pod/YAML)ã¢ã¸ã¥ã¼ã«ãä½¿ã£ã¦èªåã§ã­ã¼ããå®è£ããæ¹ãè¯ãããã§ãã
+
+## github
+
+ä¸å¿ãã¡ããã¨åããå¿éãªã®ã§ããã§èª¬æãã¦ããç®æã ãå®è£ãããã³ã®ç®¡çã¢ããªãæ´æ°ãã¦githubã«ç½®ãã¦ãã¾ããã
+
+[github.com/azumakuniyuki/Noraneko-Mojo-Sample](https://github.com/azumakuniyuki/Noraneko-Mojo-Sample)
+
+## ã¾ã¨ã
+
+Perlãç¥ããªãäººãè¨­å®ãã¡ã¤ã«ãæ¸ãæãããããªã±ã¼ã¹ã§ã¯ãJSONã§æ¸ããæ¹ãè¦ªãã¿ãããã¨ããã®ãããããããã¾ããããã®ãããªå ´åã¯JSONConfigãã©ã°ã¤ã³ãä½¿ãã¨è¯ãã§ãããã
+
+ããããJSONConfigãã©ã°ã¤ã³ã§èª­è¾¼ãJSONã®è¨­å®ãã¡ã¤ã«ã«ã¯ã³ã¡ã³ããæ¸ãã¾ããããæè¬ã±ãã«ã³ããèªãããã¦ãã¾ãããããããJSONèªä½ãäººéãææ¸ããããã®ã§ã¯ãªãã¨ããæè¦ãããã¾ãã®ã§ãä¸é·ä¸ç­ã§ã¯ããã¾ãã
+
+Perlä»¥å¤ã®ææ³ã§è¨­å®ãã¡ã¤ã«ãè¨è¿°ãããå ´åã®æåã®æ¹æ³ã®ä¸ã¤ã¯ãYAMLããããã¾ãããJSONã¨YAMLã¯ååããå¨ãéãã¾ãããJSONãYAMLã®ãµãã»ããã¨ãã¦è¦ãªãäºãåºæ¥ãã®ã§ãè¨è¿°å¾ã®è¦ãç®ã¯ããä¼¼ã¦ãã¾ããå¥ã®è¡¨ç¾ãããã°YAMLã«å¶ç´ãå ãããã®ãJSONã§ãããJSONããå¤å°ã®å³æ ¼ããåãé¤ãããã®ãYAMLã§ãããã¨ãã£ãã¨ããã§ããããã
+
+è©±ãMojoliciousããå°ããããã®ã§ãããåãä»å¹´ã®å¤ããã«æ¸ãã[Haineko](https://github.com/azumakuniyuki/Haineko)ã¨ããã¡ã¼ã«éä¿¡ç¨HTTPãµã¼ããããã¾ãã¦ãããã§ã¯[è¨­å®ãã¡ã¤ã«](https://github.com/azumakuniyuki/Haineko/blob/master/etc/haineko.cf-example)ãJSON(ã¨è¨ããªããYAMLã¨ãã¦è©ä¾¡ãã¦ãã)ã§è¨è¿°ãã¦ãã¦ãè¨­å®ãã¡ã¤ã«ã«ã³ã¡ã³ããæ¸ãäºãåºæ¥ã¾ãã®ã§ãå³å¯ãªJSONããã¯è¨è¿°ããããã¨æãã¾ãã
+
+ãªã®ã§ãè¨­å®ãã¡ã¤ã«ã®ã­ã¼ããèªåã§å®è£ããã¨ããã®ãååæå¹ãªé¸æè¢ã§ããã¨è¨ããã§ãããã
+
+## åè
+
+- [Mojolicious::Plugin::JSONConfig](http://mojolicio.us/perldoc/Mojolicious/Plugin/JSONConfig)
+- [Mojolicious::Plugin::YmlConfig](https://metacpan.org/pod/Mojolicious::Plugin::YmlConfig)
+- [Rubyist Magazine - ãã­ã°ã©ãã¼ã®ããã® YAML å¥é (åç´ç·¨)](http://magazine.rubyist.net/?0009-YAML)
+- [JavaScript Object Notation - Wikipedia](http://ja.wikipedia.org/wiki/JavaScript_Object_Notation)
+- ä»æ¥ãåèãã³ç»åã¯ããã¾ãã
+
+</textarea><input type="submit" name="commit" value="Save changes" data-disable-with="Save changes" /></form></div></section></div><div class="col-sm-3"><div class="socialButtons"><div class="socialButtons_twitter"><a class="twitter-share-button" data-text="Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã« by @azumakuniyuki on @Qiita" data-url="http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" href="https://twitter.com/share">ãã¤ã¼ã</a></div><div class="socialButtons_hatebu"><a class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" data-hatena-bookmark-title="Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«" href="http://b.hatena.ne.jp/entry/http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" title="ã¯ã¦ãã«è¿½å "><img alt="ã¯ã¦ãã«è¿½å " height="20" src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" style="border: none;" width="20" /></a><script async="async" charset="utf-8" src="https://b.st-hatena.com/js/bookmark_button.js" type="text/javascript"></script></div><div class="socialButtons_googlePlus"><div class="g-plusone" data-href="http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" data-size="medium"></div></div><div class="socialButtons_facebook"><div class="fb-like" data-action="like" data-href="http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" data-layout="button_count" data-share="false" data-show-faces="false"></div></div><div class="socialButtons_pocket"><a class="pocket-btn" data-lang="en" data-pocket-count="horizontal" data-pocket-label="pocket"></a></div></div><section class="itemsShowAuthorInfo" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><a href="/azumakuniyuki"><img alt="" class="itemsShowAuthorInfo_userIcon" itemprop="image" src="https://qiita-image-store.s3.amazonaws.com/0/8856/profile-images/1478058319" /></a><div class="itemsShowAuthorInfo_profileStats"><strong class="itemsShowAuthorInfo_userName" itemprop="name"><a itemprop="url" href="/azumakuniyuki">azumakuniyuki</a></strong><div class="itemsShowAuthorInfo_contribution"><span class="itemsShowAuthorInfo_count">94</span><span class="itemsShowAuthorInfo_unit">Contribution</span></div><div data-react-class="T.UserFollowButton" data-react-props="{&quot;url_name&quot;:&quot;azumakuniyuki&quot;,&quot;initial_followed_by&quot;:false,&quot;size&quot;:&quot;btn-xs&quot;,&quot;position&quot;:&quot;author-info&quot;}"></div></div><section class="itemsShowAuthorPopularItems"><h5 class="itemsShowAuthorPopularItems_sectionTitle">äººæ°ã®æç¨¿</h5><ul class="itemsShowAuthorPopularItems_posts list-unstyled"><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/azumakuniyuki/items/99c341e99a459d6214bc">ã³ãã³ãã©ã¤ã³ããSMTPèªè¨¼ã®è©¦é¨ãè¡ã</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/azumakuniyuki/items/49106ec3891af32af88d">Liteã§ãªãã¢ããªã®å®ç¨çãªãã£ã¬ã¯ããªæ§é ä¸ä¾</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/azumakuniyuki/items/2fcec597335d5fd011e5">Configãã©ã°ã¤ã³ã§ä½¿ãå®ç¨çãªå¤é¨è¨­å®ãã¡ã¤ã«ã®ä¸ä¾</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/azumakuniyuki/items/23cc6b090fc72cc0eb10">è¨­å®ãã¡ã¤ã«ããªãå ´åã®ä»£æ¿ææ®µã¨ç°¡æã¡ã³ããã¼ã¸</a></li></ul></section></section><div class="scroll-chaser"><div class="ad_frame_right_banner_1"></div><script async="" charset="UTF-8" defer="" src="//cdn-qiita.bigmining.com/js/adjs_set_pro.js" type="text/javascript"></script></div><div data-react-class="T.Toc" data-react-props="{&quot;body&quot;:&quot;\u003cul\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#config%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E3%81%A7%E4%BD%BF%E3%81%86json%E5%BD%A2%E5%BC%8F%E3%81%AE%E5%A4%96%E9%83%A8%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB\&quot;\u003eConfigãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«\u003c/a\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#mojoliciouspluginjsonconfig\&quot;\u003eMojolicious::Plugin::JSONConfig\u003c/a\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#json%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%BA%96%E5%82%99%E3%81%99%E3%82%8B\&quot;\u003eJSONã®è¨­å®ãã¡ã¤ã«ãæºåãã\u003c/a\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#libnoranekowebpm\&quot;\u003elib/Noraneko/Web.pm\u003c/a\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#mojoliciouspluginymlconfig\&quot;\u003eMojolicious::Plugin::YmlConfig\u003c/a\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#github\&quot;\u003egithub\u003c/a\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#%E3%81%BE%E3%81%A8%E3%82%81\&quot;\u003eã¾ã¨ã\u003c/a\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003ca href=\&quot;#%E5%8F%82%E8%80%83\&quot;\u003eåè\u003c/a\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n&quot;,&quot;wrapper&quot;:&quot;#article-body-wrapper&quot;}"></div></div></div><div class="row"><div class="col-sm-9"><div class="ArticleFooter__menu"><div class="s-flex-align-center"><div class="js-likebutton" data-props="{&quot;like_status&quot;:false,&quot;like_count&quot;:0,&quot;show_count&quot;:true,&quot;uuid&quot;:&quot;31e6a1854f28be3f577d&quot;,&quot;likable_type&quot;:&quot;Article&quot;,&quot;position&quot;:&quot;article-footer&quot;}"></div><div class="ArticleFooter__userList"></div></div><div class="u-flex u-align-center"><div class="ArticleFooter__stock"><div class="js-stockbutton" data-position="footer_menu" data-props="{&quot;stock_status&quot;:false}"></div></div><div class="ArticleFooter__editRequest"><a class="u-link-no-underline" data-toggle="tooltip" title="æç¨¿èã«è¨äºãããè¯ãããããã®ææ¡ãã§ãã¾ã ðª" href="/drafts/31e6a1854f28be3f577d/edit"><span class="fa fa-send-o fa-lg"></span> <span>ç·¨éãªã¯ã¨ã¹ã</span></a></div><div class="dropdown ArticleFooter__dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-ellipsis-h"></span></a><ul class="dropdown-menu dropdown-menu-right"><li><a href="/azumakuniyuki/items/31e6a1854f28be3f577d.md"><span class="fa fa-fw fa-file-text-o"></span> Markdownã§æ¬æãè¦ã</a></li><li><a data-target=".js-report-form" data-toggle="modal" href="#"><i class="fa fa-fw fa-flag"></i> åé¡ãããæç¨¿ãå ±åãã</a></li></ul></div></div></div><div class="itemsShowBody_adventCalendar"><div class="itemsShowBody_adventCalendar_header"><i class="fa fa-fw fa-calendar"></i> ãã®æç¨¿ã¯ <a class="title" href="/advent-calendar/2013/mojolicious">Mojolicious Advent Calendar 2013</a> ã® <span class="date">14æ¥ç®</span>ã®è¨äºã§ãã</div><ul class="itemsShowBody_adventCalendar_nav list-unstyled"><li class="itemsShowBody_adventCalendar_neighborItem itemsShowBody_adventCalendar_neighborItem-prev"><span class="itemsShowBody_adventCalendar_date"><i class="fa fa-fw fa-arrow-circle-left"></i> 13æ¥ç®ã®è¨äº:</span><span class="itemsShowBody_adventCalendar_title"><img alt="yusukebe" class="itemsShowBody_adventCalendar_icon" src="https://qiita-image-store.s3.amazonaws.com/0/22289/profile-images/1473683539" width="18" height="18" /> <a class="itemsShowBody_adventCalendar_link" href="/yusukebe/items/6817ec1e6b8ea9860ee3">Mojo::Homeã®æåãæ¢ã</a></span></li><li class="itemsShowBody_adventCalendar_neighborItem itemsShowBody_adventCalendar_neighborItem-next"><span class="itemsShowBody_adventCalendar_date"><i class="fa fa-fw fa-arrow-circle-right"></i> 15æ¥ç®ã®è¨äº:</span><span class="itemsShowBody_adventCalendar_title"><img alt="mozquito" class="itemsShowBody_adventCalendar_icon" src="https://qiita-image-store.s3.amazonaws.com/0/10489/profile-images/1473681723" width="18" height="18" /> <a class="itemsShowBody_adventCalendar_link" href="/mozquito/items/4f204d74249b17b53f6e">Mojoliciousã§Middlemançï¼éçHTMLæ¸ãåºãï¼ãªãã¨ããã</a></span></li></ul></div><div class="itemsShowBody_articleColumnFooter"><div class="socialButtons"><div class="socialButtons_twitter"><a class="twitter-share-button" data-text="Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã« by @azumakuniyuki on @Qiita" data-url="http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" href="https://twitter.com/share">ãã¤ã¼ã</a></div><div class="socialButtons_hatebu"><a class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" data-hatena-bookmark-title="Configãã©ã°ã¤ã³ã§ä½¿ãJSONå½¢å¼ã®å¤é¨è¨­å®ãã¡ã¤ã«" href="http://b.hatena.ne.jp/entry/http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" title="ã¯ã¦ãã«è¿½å "><img alt="ã¯ã¦ãã«è¿½å " height="20" src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" style="border: none;" width="20" /></a><script async="async" charset="utf-8" src="https://b.st-hatena.com/js/bookmark_button.js" type="text/javascript"></script></div><div class="socialButtons_googlePlus"><div class="g-plusone" data-href="http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" data-size="medium"></div></div><div class="socialButtons_facebook"><div class="fb-like" data-action="like" data-href="http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d" data-layout="button_count" data-share="false" data-show-faces="false"></div></div><div class="socialButtons_pocket"><a class="pocket-btn" data-lang="en" data-pocket-count="horizontal" data-pocket-label="pocket"></a></div></div></div><div class="itemsShowComment_wrapper" id="comments"><div data-react-class="T.CommentListContainer" data-react-props="{&quot;currentUser&quot;:null,&quot;initialComments&quot;:[],&quot;monthly_public_image_uploadable_size_limit&quot;:null,&quot;total_uploaded_public_image_size_in_current_month&quot;:null,&quot;item&quot;:{&quot;id&quot;:35843,&quot;uuid&quot;:&quot;31e6a1854f28be3f577d&quot;,&quot;suspended&quot;:false,&quot;secret&quot;:false},&quot;owner&quot;:{&quot;url_name&quot;:&quot;azumakuniyuki&quot;},&quot;is_team&quot;:false,&quot;is_project&quot;:false,&quot;logged_in&quot;:false,&quot;polling&quot;:false,&quot;mention_candidates&quot;:[{&quot;id&quot;:8856,&quot;url_name&quot;:&quot;azumakuniyuki&quot;,&quot;profile_image_url&quot;:&quot;https://qiita-image-store.s3.amazonaws.com/0/8856/profile-images/1478058319&quot;}]}">Comments Loading...</div></div></div></div></div></article><div class="js-report-form modal fade reportForm"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button name="button" type="submit" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">åé¡ãããæç¨¿ãå ±åãã</h4></div><div class="modal-body"><form action="/reports" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4TLazWAQeSyHiXLn9BjTQ6o9jkxzTzrH20sMFdKcqrd1811QoicfH7p7z8YClmDeocGZPnq6MDJuXV0VAACwLQ==" /><input type="hidden" name="redirect_path" id="redirect_path" value="/azumakuniyuki/items/31e6a1854f28be3f577d" /><input type="hidden" name="item_uuid" id="item_uuid" value="31e6a1854f28be3f577d" /><p>ãã®æç¨¿ã«ã©ã®ãããªåé¡ãããã¾ããï¼</p><br /><div class="form-group"><ul class="list-unstyled"><li><label><input type="radio" name="report_type" id="report_type_spam" value="spam" required="required" /> ã¹ãã ã§ã </label></li><li><label><input type="radio" name="report_type" id="report_type_harassment" value="harassment" required="required" /> æ»æçã¾ãã¯è¿·æãªåå®¹ãå«ãã§ãã¾ã </label></li><li><label><input type="radio" name="report_type" id="report_type_inappropriate_content" value="inappropriate_content" required="required" /> ä¸é©åãªåå®¹ãå«ãã§ãã¾ã </label></li></ul></div><div class="reportForm_submitButtonContainer"><button name="button" type="submit" class="btn btn-primary reportForm_submitButton"><i class="fa fa-send"></i> éä¿¡</button></div></form></div></div></div></div><script id="js-item" type="application/json">{ "url": "http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d", "id": 35843, "uuid": "31e6a1854f28be3f577d" }</script><script class="js-user" type="application/json">{&quot;id&quot;:8856,&quot;url_name&quot;:&quot;azumakuniyuki&quot;,&quot;profile_image_url&quot;:&quot;https://qiita-image-store.s3.amazonaws.com/0/8856/profile-images/1478058319&quot;}</script><script language="JavaScript" src="//cdn.bigmining.com/private/js/qiita_bigmining.js" type="text/javascript"></script></div><footer class="footer"><div class="footer_inner"><div class="footer_container"><ul class="footer_links-left"><li class="footer_link"><a class="footer_copyright" href="http://increments.co.jp">Â© 2017 Increments Inc.</a></li><li class="footer_link"><a href="http://qiita.com/terms">å©ç¨è¦ç´</a></li><li class="footer_link"><a href="http://qiita.com/privacy">ãã©ã¤ãã·ã¼</a></li><li class="footer_link"><a href="http://help.qiita.com">ãã«ã</a></li><li class="footer_link"><a href="https://increments.zendesk.com/anonymous_requests/new">ãåãåãã</a></li></ul><ul class="footer_links-right"><li class="footer_link"><a href="http://qiita.com/about">Qiitaã¨ã¯</a></li><li class="footer_link"><a href="http://blog.qiita.com">ãã­ã°</a></li><li class="footer_link"><a href="http://qiita.com/api/v2/docs">API</a></li><li class="footer_link"><a href="https://teams.qiita.com/">Team</a></li><li class="footer_link"><a href="http://kobito.qiita.com">Kobito</a></li><li class="footer_link"><a class="js-public-form-feedback-link" data-target=".js-feedback-form" data-toggle="modal" href=""><i class="fa fa-heart"></i> ãæè¦ <i class="fa fa-caret-down"></i></a></li></ul></div></div></footer><div class="js-feedback-form modal fade feedbackForm"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button name="button" type="submit" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">ãæè¦</h4></div><div class="modal-body"><form class="js-feedback-form-form" action="/feedbacks" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Wq/gvo4zrASQ2p6JnAJqtMYGSsTZAggMfYbYfteGP7DObmcjTATKN60oI6hqjNkpzfpdttD3AvnIkIl+BRolKg==" /><input type="hidden" name="redirect_path" id="redirect_path" value="/azumakuniyuki/items/31e6a1854f28be3f577d" /><div class="form-group"><textarea name="feedback[message]" id="feedback_message" class="form-control js-feedback-form-text-area" placeholder="Qiitaã«ã¤ãã¦ã®ãæè¦ããèãããã ããã" required="required" rows="5">
+</textarea></div><div class="feedbackForm_submitButtonContainer"><button name="button" type="submit" class="btn btn-primary feedbackForm_submitButton"><i class="fa fa-send"></i> éä¿¡</button><p class="feedbackForm_note">ããã ãããæè¦ã¸ã®è¿ä¿¡ã¯è¡ã£ã¦ããã¾ããã<br />è¿ä¿¡ã®å¿è¦ãªåå®¹ã«ã¤ãã¦ã¯ã<a href="https://increments.zendesk.com/anonymous_requests/new">ãã¡ã</a> ãããåãåãããã ããã</p></div><div style="position:fixed;top:-99999px;opacity:0.0001;"><input name="feedback[name]" type="text" /></div></form></div></div></div></div><script>// if (window.mixpanel instanceof Element) {
+//   window.mixpanel = [];
+// }
+// (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+// for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);</script><script src="http://cdn.qiita.com/assets/public-8f290bb91a21877978e3cb73e158cd77.min.js"></script><script>
+  (function () {
+    var script = document.getElementsByTagName('script')[0];
+    var load = function (src, id) {
+      var el = document.createElement('script');
+      el.async = true;
+      el.src = src;
+      el.id = id;
+      script.parentNode.insertBefore(el, script);
+    };
+      // Optimizely
+      load('//cdn.optimizely.com/js/52738645.js', 'optimizely-jssdk');
+      // Google Analytics
+      window._gaq = window._gaq || [];
+      var isCareer = location.hostname.split('.')[0] == 'career';
+      if (isCareer) {
+        window._gaq.push(['_setAccount', 'UA-24675221-11']);
+        window._gaq.push(['_setDomainName', 'qiita.com']);
+      } else {
+        window._gaq.push(['_setAccount', 'UA-24675221-1']);
+      }
+      window._gaq.push(['_setCustomVar', 1, 'logged_in', 'false', 2]);
+      window._gaq.push(['_trackPageview']);
+      var src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      load(src, 'google-analytics-jssdk');
+    // Google Analytics - Universal Analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-24675221-12', {
+          
+        });
+          ga('create', 'UA-23952562-5', { name: 'user' });
+          ga('user.send', 'pageview');
+        ga('set', 'dimension1', 'false');
+        ga('set', 'dimension3', 'false');
+      ga('require', 'displayfeatures');
+      ga('set', 'forceSSL', true);
+      ga('send', 'pageview');
+    // Google Tag Manager
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TBQWPN');
+  })();
+</script>
+</body></html>

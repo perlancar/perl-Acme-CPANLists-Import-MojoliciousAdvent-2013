@@ -1,0 +1,67 @@
+#!/usr/bin/env perl
+
+use 5.010;
+use strict;
+use warnings;
+use FindBin '$Bin';
+
+use App::CreateAcmeCPANListsImportModules;
+use Perinci::Sub::Util qw(gen_curried_sub);
+use Perinci::CmdLine::Any;
+
+my %days = (
+    1 => 'http://qiita.com/yusukebe/items/c9fb34096e61976f062f',
+    2 => 'http://qiita.com/yusukebe/items/65486fc44b85b4415299',
+    3 => 'http://qiita.com/yusukebe/items/b1dffe22bd870b128aa9',
+    4 => 'http://qiita.com/xtetsuji/items/1227e40bea05b09684e0',
+    5 => 'http://qiita.com/dokechin/items/84dc560488f0f1c60c25',
+    6 => 'http://qiita.com/azumakuniyuki/items/49106ec3891af32af88d',
+    7 => 'http://qiita.com/yusukebe/items/430804b6a9511da6fb3a',
+    8 => 'http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277',
+    9 => 'http://qiita.com/xtetsuji/items/ec53b882e98a83d02a1e',
+    10 => 'http://qiita.com/azumakuniyuki/items/2fcec597335d5fd011e5',
+    11 => 'http://qiita.com/azumakuniyuki/items/23cc6b090fc72cc0eb10',
+    12 => 'http://qiita.com/yusukebe/items/c4d67b49f1deac5a4a80',
+    13 => 'http://qiita.com/yusukebe/items/6817ec1e6b8ea9860ee3',
+    14 => 'http://qiita.com/azumakuniyuki/items/31e6a1854f28be3f577d',
+    15 => 'http://qiita.com/mozquito/items/4f204d74249b17b53f6e',
+    16 => 'http://qiita.com/yusukebe/items/ffee7ad26ddfb24c17f1',
+    17 => 'http://qiita.com/yusukebe/items/a0e804570fa574a03146',
+    18 => 'http://qiita.com/yusukebe/items/65141c9c63a2860af962',
+    19 => 'http://qiita.com/yusukebe/items/9f755d17a3a1b657a8b6',
+    20 => 'http://qiita.com/yusukebe/items/5594ef4794cae1615fbb',
+    21 => 'http://qiita.com/yusukebe/items/7797251f82a09726ae73',
+    22 => 'http://qiita.com/xtetsuji/items/94a1b2a5738fa3b541ae',
+    23 => 'http://qiita.com/hayajo/items/e0b3a5c0b6dd76636c58',
+    24 => 'http://d.hatena.ne.jp/charsbar/20131224/1387822610',
+    25 => 'http://qiita.com/yusukebe/items/41a4cdcefbc618d1f7be',
+);
+
+gen_curried_sub(
+    'App::CreateAcmeCPANListsImportModules::create_acme_cpanlists_import_modules',
+    {
+        modules => [
+            {
+                name => '2013',
+                url => "http://qiita.com/advent-calendar/2013/mojolicious",
+                extract_urls => [values %days],
+                summary => 'Modules mentioned in Mojolicious Advent Calendar 2013 on Qiita.com',
+            },
+            (map {
+                +{
+                    name => sprintf("2013_12_%02d", $_),
+                    url => $days{$_},
+                    summary => "Modules mentioned in Mojolicious Advent Calendar 2013 on Qiita.com (day $_)",
+                } } sort keys %days),
+        ],
+        namespace => 'Acme::CPANLists::Import::Qiita::MojoliciousAdvent',
+        user_agent => 'Mozilla/5.0',
+        dist_dir => "$Bin/..",
+    },
+    'app',
+);
+
+Perinci::CmdLine::Any->new(
+    url => '/main/app',
+    log => 1,
+)->run;

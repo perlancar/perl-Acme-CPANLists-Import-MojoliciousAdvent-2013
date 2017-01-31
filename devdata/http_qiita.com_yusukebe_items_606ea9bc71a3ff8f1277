@@ -1,0 +1,173 @@
+<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#"><head><meta charset="UTF-8" /><title>Mojoliciousã®åé¨ã®namespace/pathã«ã¤ãã¦ç¢ºèª - Qiita</title><meta content="width=device-width,initial-scale=1" name="viewport" /><meta content="ä¾ãã°
+
+
+$ mojo generate app MyApp::Web
+
+
+ã¨ãã¦ã¤ãã£ãæã«Controllerã¯ MyApp::Web::Example.pm ãªã©ã®ããã«éç½®ããã¾ããããç´°ãããã£ã¬ã¯ããªãæ§é åãããå ´åã«ã¯ãããããªãã£ã¦ MyApp::Web::Controller::Example.pm ã«ç½®ãããããããã¾ããã­ããããªæã¯Routingããã¨ããã®namespaceããããã¾ãã
+
+
+lib/MyApp/Web.pm
+
+$r-&gt;na..." name="description" /><meta content="summary" name="twitter:card" /><meta content="@Qiita" name="twitter:site" /><meta content="yusukebe" name="twitter:creator" /><meta content="Mojoliciousã®åé¨ã®namespace/pathã«ã¤ãã¦ç¢ºèª - Qiita" property="og:title" /><meta content="article" property="og:type" /><meta content="http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" property="og:url" /><meta content="http://cdn.qiita.com/assets/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png" property="og:image" /><meta content="ä¾ãã°
+
+```
+$ mojo generate app MyApp::Web
+```
+
+ã¨ãã¦ã¤ãã£ãæã«Controllerã¯ `MyApp::Web::Example.pm` ãªã©ã®ããã«éç½®ããã¾ããããç´°ãããã£ã¬ã¯ããªãæ§..." property="og:description" /><meta content="Qiita" property="og:site_name" /><meta content="564524038" property="fb:admins" /><link rel="shortcut icon" type="image/x-icon" href="http://cdn.qiita.com/assets/favicons/public/production-4ff10c1e1e2b5fcb353ff9cafdd56c70.ico" /><link rel="apple-touch-icon" type="image/png" href="http://cdn.qiita.com/assets/favicons/public/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png" /><link href="/opensearch.xml" rel="search" title="Qiita" type="application/opensearchdescription+xml" /><link rel="stylesheet" media="all" href="http://cdn.qiita.com/assets/public-1970acb57243128a443f18d046179546.min.css" /><meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WFtBDZ3CMkq/UxEFCGhi20LrvNGoiqcA3Vd0RMRv3QX2HIsuGUf3Kfz91pbBgbxbCMvbTykE/eXolmI6Pt33Rg==" /></head><body class="without-js" id=""><noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-TBQWPN" style="display:none;visibility:hidden" width="0"></iframe></noscript><script>
+  document.body.className = document.body.className.replace('without-js', '') + ' with-js';
+  window.Qiita = {"asset_host":"cdn.qiita.com","TLD":"com","controller_path":"public/items","controller_action":"public/items#show","controller":"items","action":"show","env":"production","flash":{},"is_landing_page":false,"is_team_page":false,"root_domain":"qiita.com","variant":null,"config":{"mixpanel":{"career":"dd35af27e959781713d63fd7ca898a8d","per_team":"c0a2116368b33b44b5029ebd2cc9b094","public":"be87616606b0e26a87689099aab2c4e5","team":"b7c0342acba2dbc8742484d98788efb3"},"default_locale":"ja","locale":"ja"},"team":null,"user":null,"GIT_BRANCH":null,"DEBUG":false};
+
+</script>
+<div class="headerContainer headerContainer-public" role="navigation"><div data-react-class="T.HeaderContainer" data-react-props="{&quot;user&quot;:null,&quot;team&quot;:null,&quot;news&quot;:{&quot;type&quot;:&quot;åé&quot;,&quot;content&quot;:&quot;QiitaãQiita:Teamãè¯ããããã¨ã³ã¸ãã¢&quot;,&quot;url&quot;:&quot;http://increments.co.jp/jobs/engineers?utm_source=qiita\u0026utm_medium=header_news&quot;},&quot;initial_unread_count&quot;:null,&quot;siteid_image&quot;:&quot;http://cdn.qiita.com/siteid-reverse.png&quot;,&quot;is_team_page&quot;:false,&quot;on_team_setting&quot;:false,&quot;show_post_menu&quot;:true,&quot;show_search_menu&quot;:true,&quot;is_fluid&quot;:false,&quot;locale&quot;:&quot;ja&quot;}"></div></div><div id="main"><ol class="itemBreadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Qiita</span></a><meta content="1" itemprop="position" /></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/items"><span itemprop="name">æç¨¿</span></a><meta content="2" itemprop="position" /></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/tags/Mojolicious"><span itemprop="name">Mojolicious</span></a><meta content="3" itemprop="position" /></li></ol><article itemscope="" itemtype="http://schema.org/Article"><div class="ArticleMainHeader ArticleMainHeader--adcalItem"><div class="container"></div><div class="container"><div class="row s-flex-align-center"><div class="col-sm-9"><div class="adventCalendarRibbon"><span><a class="adventCalendarRibbon_title" href="/advent-calendar/2013/mojolicious">Mojolicious Advent Calendar 2013</a> 8æ¥ç®</span></div><h1 class="ArticleMainHeader__title">Mojoliciousã®åé¨ã®namespace/pathã«ã¤ãã¦ç¢ºèª</h1><ul class="TagList"><li class="TagList__item" data-count="98"><a class="u-link-unstyled TagList__label" href="/tags/Mojolicious"><img alt="Mojolicious" class="TagList__icon" src="//cdn.qiita.com/assets/icons/medium/missing.png" /><span>Mojolicious</span></a></li><li class="TagList__item" data-count="1072"><a class="u-link-unstyled TagList__label" href="/tags/Perl"><img alt="Perl" class="TagList__icon" src="https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/62b7b4bb21c57f377926995086a4723c566042e8/medium.jpg?1383884139" /><span>Perl</span></a></li></ul></div><div class="col-sm-3"><div class="itemsShowHeaderStock"><ul class="list-unstyled itemsShowHeaderStock_statusList"><li><div class="itemsShowHeaderStock_count stock"><span class="fa fa-thumbs-up"></span><span class="js-likecount">1</span></div><div class="itemsShowHeaderStock_countText">ããã­</div></li><li><div class="itemsShowHeaderStock_count" content="0 UserComments" itemprop="interactionCount"><span class="fa fa-comment"></span>0</div><div class="itemsShowHeaderStock_countText">ã³ã¡ã³ã</div></li></ul></div><div class="js-likebutton" data-props="{&quot;like_status&quot;:false,&quot;like_count&quot;:1,&quot;uuid&quot;:&quot;606ea9bc71a3ff8f1277&quot;,&quot;likable_type&quot;:&quot;Article&quot;,&quot;position&quot;:&quot;article-header&quot;}"></div><ul class="list-inline ArticleMainHeader__users"><li class="js-hovercard" data-hovercard-target-name="kayamelo"><a itemprop="url" href="/kayamelo"><img alt="kayamelo" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/19450/profile-images/1479915482" /></a></li></ul></div></div></div></div><div class="ArticleAsideHeader"><div class="container"><div class="u-flex u-space-between"><div class="u-flex u-flex-wrap"><div class="u-flex u-align-center s-pdv-5 u-flex-wrap"><div class="ArticleAsideHeader__author"><a href="/yusukebe"><img class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/22289/profile-images/1473683539" alt="1473683539" /></a> <a class="u-link-unstyled" href="/yusukebe">yusukebe</a> </div><div class="ArticleAsideHeader__date"><span><time datetime="2013-12-09T12:41:14+09:00" itemprop="datePublished">2013å¹´12æ09æ¥</time>ã«æç¨¿</span></div></div><div class="u-flex u-align-center s-pdv-5 mobile-hidden"></div><div class="u-flex u-align-center s-pdv-5 mobile-hidden"></div></div><div class="u-flex u-align-center s-flex-justiry-between s-pdv-5 u-shrink-0"><div class="ArticleAsideHeader__stock"><div class="js-stockbutton" data-position="top" data-props="{&quot;stock_status&quot;:false}"></div></div><div class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-ellipsis-h fa-lg"></span></a><ul class="dropdown-menu dropdown-menu-right"><li><a href="/yusukebe/items/606ea9bc71a3ff8f1277.md"><span class="fa fa-fw fa-file-text-o"></span> Markdownã§æ¬æãè¦ã</a></li><li><a data-target=".js-report-form" data-toggle="modal" href="#"><span class="fa fa-fw fa-flag"></span> åé¡ãããæç¨¿ãå ±åãã</a></li></ul></div></div></div></div></div><div class="container"><div class="row" id="article-body-wrapper"><div class="col-sm-9"><section class="markdownContent markdownContent-headingEnabled js-task-list-container clearfix position-relative" id="item-606ea9bc71a3ff8f1277" itemprop="articleBody"><div class="alert alert-warning"><i class="fa fa-clock-o"></i> ãã®è¨äºã¯æçµæ´æ°æ¥ãã1å¹´ä»¥ä¸ãçµéãã¦ãã¾ãã</div><p>ä¾ãã°</p>
+
+<div class="code-frame" data-lang="text"><div class="highlight"><pre>
+$ mojo generate app MyApp::Web
+</pre></div></div>
+
+<p>ã¨ãã¦ã¤ãã£ãæã«Controllerã¯ <code>MyApp::Web::Example.pm</code> ãªã©ã®ããã«éç½®ããã¾ããããç´°ãããã£ã¬ã¯ããªãæ§é åãããå ´åã«ã¯ãããããªãã£ã¦ <code>MyApp::Web::Controller::Example.pm</code> ã«ç½®ãããããããã¾ããã­ããããªæã¯Routingããã¨ããã®namespaceããããã¾ãã</p>
+
+<div class="code-frame" data-lang="pl">
+<div class="code-lang"><span class="bold">lib/MyApp/Web.pm</span></div>
+<div class="highlight"><pre>
+<span class="nv">$r</span><span class="o">-&gt;</span><span class="n">namespaces</span><span class="p">([</span><span class="n">qw</span><span class="o">/</span><span class="nn">MyApp::Web::</span><span class="n">Controller</span><span class="p">]);</span>
+</pre></div>
+</div>
+
+<p>ãã® <code>Mojolicious::Routes</code> ãªãã¸ã§ã¯ãã® <code>namespaces</code> ã¯éåãªãã¡ã¬ã³ã¹ãæ ¼ç´ãã¦ãã¦ããã©ã«ãã ã¨ãã®å ´å <code>MyApp::Web</code> ãå¥ã£ã¦ããã®ã§ããã®ã¾ã¾ã ã¨ããä»¥ä¸ã®ã¢ã¸ã¥ã¼ã«ãControllerã¨ã¿ãªãã¦ããã®ã§ãããéåã«æ ¼ç´ãã£ã¦ãã¨ã¯ä¸è¨ã®ããã«ä¸ã¤ã ãã®namespaceã®ååç©ºéãå¤ã¨ãã¦ä¸åã ãå¥ããããããªãã¦è¤æ°å¥ãããã¨ãåºæ¥ã¾ããããã¦éåã®åé ­ããåªåçã«Controllerãã¿ã¤ãã¦ããæµãã«ãªãã¾ãã</p>
+
+<p>ãã®è¾ºãç°¡åã«ä»¥ä¸ã®ãããªwarnãã³ãã§ãç¢ºèªåºæ¥ã¾ãã</p>
+
+<div class="code-frame" data-lang="pl">
+<div class="code-lang"><span class="bold">lib/MyApp/Web.pm</span></div>
+<div class="highlight"><pre>
+<span class="nb">unshift</span> <span class="nv">$r</span><span class="o">-&gt;</span><span class="n">namespaces</span><span class="p">(),</span> <span class="s">'MyApp::Controller'</span><span class="p">;</span>
+<span class="k">use</span> <span class="n">YAML</span><span class="p">;</span>
+<span class="nb">warn</span> <span class="n">Dump</span> <span class="nv">$r</span><span class="o">-&gt;</span><span class="n">namespaces</span><span class="p">();</span>
+</pre></div>
+</div>
+
+<div class="code-frame" data-lang="text"><div class="highlight"><pre>
+- MyApp::Controller
+- MyApp
+</pre></div></div>
+
+<p>å®ã¯Controllerã®namespaceä»¥å¤ã«ãè«¸ãã­ã¼ããããã¹ãªã©ã <code>lib/MyApp/Web.pm</code> ãã¡ã¤ã«åãå¤æ´ãããã¨ã§å¯è½ã§ããããããåºæ¬çã«éåã§ä¿æããåé ­ã®å¤ãåªåçã«èª­ãä»æ§ã«ãªã£ã¦ããï¼ã¯ãï¼</p>
+
+<p>ä¾ãã°ã¹ã¿ãã£ãã¯ãã¡ã¤ã«ãç½®ãã¦ãããã¹ãè¿½å ããã«ã¯</p>
+
+<div class="code-frame" data-lang="pl">
+<div class="code-lang"><span class="bold">lib/MyApp/Web.pm</span></div>
+<div class="highlight"><pre>
+<span class="nb">unshift</span> <span class="nv">@</span><span class="p">{</span><span class="nv">$self</span><span class="o">-&gt;</span><span class="n">static</span><span class="o">-&gt;</span><span class="n">paths</span><span class="p">},</span> <span class="s">'/home/yusuke/public'</span><span class="p">;</span>
+</pre></div>
+</div>
+
+<p>ã¨ããã°ãããããã³ãã¬ã¼ããç½®ãå ´æã</p>
+
+<div class="code-frame" data-lang="pl">
+<div class="code-lang"><span class="bold">lib/MyApp/Web.pm</span></div>
+<div class="highlight"><pre>
+<span class="nb">unshift</span> <span class="nv">@</span><span class="p">{</span><span class="nv">$self</span><span class="o">-&gt;</span><span class="n">renderer</span><span class="o">-&gt;</span><span class="n">paths</span><span class="p">},</span> <span class="s">'/home/yusuke/templates'</span><span class="p">;</span>
+</pre></div>
+</div>
+
+<p>ã¨æ¸ãã°ãã¹ãè¿½å åºæ¥ã¾ãã­ã</p>
+
+<p>ã£ã¦ãã¨ã§ãnamespaceããã¹ãå¤æ´ããæ¹æ³ã¨ããã¦ãã³ãããã°ã ãããåãããï¼ã£ã¦ãã¨ãæ¸ãã¾ããã</p>
+<div class="hidden"><form class="js-task-list-update" action="/yusukebe/items/606ea9bc71a3ff8f1277" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="patch" /><input type="hidden" name="authenticity_token" value="cJI4XzPYWLyKCPOv5HKphCJNp+nD2lORkuK+skPsWcHe1fJ8t12d38mmNDwtm3cEaG3Ad0JUCXSnI6jMuV5zgg==" /><input type="hidden" name="updated_at_confirmation_in_unixtime" id="updated_at_confirmation_in_unixtime" value="1386560474" class="js-task-list-updated-at" /><textarea name="raw_body" id="raw_body" class="js-task-list-field">
+ä¾ãã°
+
+```
+$ mojo generate app MyApp::Web
+```
+
+ã¨ãã¦ã¤ãã£ãæã«Controllerã¯ `MyApp::Web::Example.pm` ãªã©ã®ããã«éç½®ããã¾ããããç´°ãããã£ã¬ã¯ããªãæ§é åãããå ´åã«ã¯ãããããªãã£ã¦ `MyApp::Web::Controller::Example.pm` ã«ç½®ãããããããã¾ããã­ããããªæã¯Routingããã¨ããã®namespaceããããã¾ãã
+
+```pl:lib/MyApp/Web.pm
+$r-&gt;namespaces([qw/MyApp::Web::Controller]);
+```
+
+ãã® ` Mojolicious::Routes ` ãªãã¸ã§ã¯ãã® `namespaces` ã¯éåãªãã¡ã¬ã³ã¹ãæ ¼ç´ãã¦ãã¦ããã©ã«ãã ã¨ãã®å ´å `MyApp::Web` ãå¥ã£ã¦ããã®ã§ããã®ã¾ã¾ã ã¨ããä»¥ä¸ã®ã¢ã¸ã¥ã¼ã«ãControllerã¨ã¿ãªãã¦ããã®ã§ãããéåã«æ ¼ç´ãã£ã¦ãã¨ã¯ä¸è¨ã®ããã«ä¸ã¤ã ãã®namespaceã®ååç©ºéãå¤ã¨ãã¦ä¸åã ãå¥ããããããªãã¦è¤æ°å¥ãããã¨ãåºæ¥ã¾ããããã¦éåã®åé ­ããåªåçã«Controllerãã¿ã¤ãã¦ããæµãã«ãªãã¾ãã
+
+ãã®è¾ºãç°¡åã«ä»¥ä¸ã®ãããªwarnãã³ãã§ãç¢ºèªåºæ¥ã¾ãã
+
+```pl:lib/MyApp/Web.pm
+unshift $r-&gt;namespaces(), &#39;MyApp::Controller&#39;;
+use YAML;
+warn Dump $r-&gt;namespaces();
+```
+
+```
+- MyApp::Controller
+- MyApp
+```
+
+å®ã¯Controllerã®namespaceä»¥å¤ã«ãè«¸ãã­ã¼ããããã¹ãªã©ã `lib/MyApp/Web.pm` ãã¡ã¤ã«åãå¤æ´ãããã¨ã§å¯è½ã§ããããããåºæ¬çã«éåã§ä¿æããåé ­ã®å¤ãåªåçã«èª­ãä»æ§ã«ãªã£ã¦ããï¼ã¯ãï¼
+
+ä¾ãã°ã¹ã¿ãã£ãã¯ãã¡ã¤ã«ãç½®ãã¦ãããã¹ãè¿½å ããã«ã¯
+
+```pl:lib/MyApp/Web.pm
+unshift @{$self-&gt;static-&gt;paths}, &#39;/home/yusuke/public&#39;;
+```
+ã¨ããã°ãããããã³ãã¬ã¼ããç½®ãå ´æã
+
+```pl:lib/MyApp/Web.pm
+unshift @{$self-&gt;renderer-&gt;paths}, &#39;/home/yusuke/templates&#39;;
+```
+ã¨æ¸ãã°ãã¹ãè¿½å åºæ¥ã¾ãã­ã
+
+ã£ã¦ãã¨ã§ãnamespaceããã¹ãå¤æ´ããæ¹æ³ã¨ããã¦ãã³ãããã°ã ãããåãããï¼ã£ã¦ãã¨ãæ¸ãã¾ããã</textarea><input type="submit" name="commit" value="Save changes" data-disable-with="Save changes" /></form></div></section></div><div class="col-sm-3"><div class="socialButtons"><div class="socialButtons_twitter"><a class="twitter-share-button" data-text="Mojoliciousã®åé¨ã®namespace/pathã«ã¤ãã¦ç¢ºèª by @yusukebe on @Qiita" data-url="http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" href="https://twitter.com/share">ãã¤ã¼ã</a></div><div class="socialButtons_hatebu"><a class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" data-hatena-bookmark-title="Mojoliciousã®åé¨ã®namespace/pathã«ã¤ãã¦ç¢ºèª" href="http://b.hatena.ne.jp/entry/http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" title="ã¯ã¦ãã«è¿½å "><img alt="ã¯ã¦ãã«è¿½å " height="20" src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" style="border: none;" width="20" /></a><script async="async" charset="utf-8" src="https://b.st-hatena.com/js/bookmark_button.js" type="text/javascript"></script></div><div class="socialButtons_googlePlus"><div class="g-plusone" data-href="http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" data-size="medium"></div></div><div class="socialButtons_facebook"><div class="fb-like" data-action="like" data-href="http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" data-layout="button_count" data-share="false" data-show-faces="false"></div></div><div class="socialButtons_pocket"><a class="pocket-btn" data-lang="en" data-pocket-count="horizontal" data-pocket-label="pocket"></a></div></div><section class="itemsShowAuthorInfo" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><a href="/yusukebe"><img alt="" class="itemsShowAuthorInfo_userIcon" itemprop="image" src="https://qiita-image-store.s3.amazonaws.com/0/22289/profile-images/1473683539" /></a><div class="itemsShowAuthorInfo_profileStats"><strong class="itemsShowAuthorInfo_userName" itemprop="name"><a itemprop="url" href="/yusukebe">yusukebe</a></strong><div class="itemsShowAuthorInfo_contribution"><span class="itemsShowAuthorInfo_count">168</span><span class="itemsShowAuthorInfo_unit">Contribution</span></div><div data-react-class="T.UserFollowButton" data-react-props="{&quot;url_name&quot;:&quot;yusukebe&quot;,&quot;initial_followed_by&quot;:false,&quot;size&quot;:&quot;btn-xs&quot;,&quot;position&quot;:&quot;author-info&quot;}"></div></div><section class="itemsShowAuthorPopularItems"><h5 class="itemsShowAuthorPopularItems_sectionTitle">äººæ°ã®æç¨¿</h5><ul class="itemsShowAuthorPopularItems_posts list-unstyled"><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/yusukebe/items/65141c9c63a2860af962">Mojoliciousæéãã¹ã¿ã¼</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/yusukebe/items/c4d67b49f1deac5a4a80">250ä¸ãã¦ã³ã­ã¼ãã¢ããªãæ¯ããBokete.pmãè¦ã</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/yusukebe/items/c9fb34096e61976f062f">Mojoliciousã®æ§ããªç«ã¡ä¸ãæ¹</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/yusukebe/items/65486fc44b85b4415299">Mojoliciousã®ã»ãã·ã§ã³ã®è©± 2013å¹´å¹´æ«ç</a></li><li itemscope="" itemtype="http://schema.org/Article"> <a itemprop="url" track="click" data-label="AuthorPopularItemsAtSidebar" href="/yusukebe/items/9f755d17a3a1b657a8b6">bridgeãæ´»ç¨ãã</a></li></ul></section></section><div class="scroll-chaser"><div class="google-adsense"><style>.test-text-responsible { width: 200px; height: 200px; }@media(min-width: 1200px) {  .test-text-responsible { width: 250px; height: 250px; }}@media(max-width: 979px) and (min-width: 768px) {  .test-text-responsible { width: 120px; height: 240px; }}@media(max-width: 767px) {  .test-text-responsible { width: 320px; height: 50px; }}</style><script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle test-text-responsible" data-ad-client="ca-pub-8127218772604357" data-ad-slot="3880091879" style="display:inline-block"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></div><div class="row"><div class="col-sm-9"><div class="ArticleFooter__menu"><div class="s-flex-align-center"><div class="js-likebutton" data-props="{&quot;like_status&quot;:false,&quot;like_count&quot;:1,&quot;show_count&quot;:true,&quot;uuid&quot;:&quot;606ea9bc71a3ff8f1277&quot;,&quot;likable_type&quot;:&quot;Article&quot;,&quot;position&quot;:&quot;article-footer&quot;}"></div><div class="ArticleFooter__userList"><div class="ArticleFooter__user"><div class="js-hovercard" data-hovercard-target-name="kayamelo"><a itemprop="url" href="/kayamelo"><img alt="kayamelo" class="thumb thumb--xs" src="https://qiita-image-store.s3.amazonaws.com/0/19450/profile-images/1479915482" /></a></div></div></div></div><div class="u-flex u-align-center"><div class="ArticleFooter__stock"><div class="js-stockbutton" data-position="footer_menu" data-props="{&quot;stock_status&quot;:false}"></div></div><div class="ArticleFooter__editRequest"><a class="u-link-no-underline" data-toggle="tooltip" title="æç¨¿èã«è¨äºãããè¯ãããããã®ææ¡ãã§ãã¾ã ðª" href="/drafts/606ea9bc71a3ff8f1277/edit"><span class="fa fa-send-o fa-lg"></span> <span>ç·¨éãªã¯ã¨ã¹ã</span></a></div><div class="dropdown ArticleFooter__dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-ellipsis-h"></span></a><ul class="dropdown-menu dropdown-menu-right"><li><a href="/yusukebe/items/606ea9bc71a3ff8f1277.md"><span class="fa fa-fw fa-file-text-o"></span> Markdownã§æ¬æãè¦ã</a></li><li><a data-target=".js-report-form" data-toggle="modal" href="#"><i class="fa fa-fw fa-flag"></i> åé¡ãããæç¨¿ãå ±åãã</a></li></ul></div></div></div><div class="itemsShowBody_adventCalendar"><div class="itemsShowBody_adventCalendar_header"><i class="fa fa-fw fa-calendar"></i> ãã®æç¨¿ã¯ <a class="title" href="/advent-calendar/2013/mojolicious">Mojolicious Advent Calendar 2013</a> ã® <span class="date">8æ¥ç®</span>ã®è¨äºã§ãã</div><ul class="itemsShowBody_adventCalendar_nav list-unstyled"><li class="itemsShowBody_adventCalendar_neighborItem itemsShowBody_adventCalendar_neighborItem-prev"><span class="itemsShowBody_adventCalendar_date"><i class="fa fa-fw fa-arrow-circle-left"></i> 7æ¥ç®ã®è¨äº:</span><span class="itemsShowBody_adventCalendar_title"><img alt="yusukebe" class="itemsShowBody_adventCalendar_icon" src="https://qiita-image-store.s3.amazonaws.com/0/22289/profile-images/1473683539" width="18" height="18" /> <a class="itemsShowBody_adventCalendar_link" href="/yusukebe/items/430804b6a9511da6fb3a">4.59ããå°å¥ãããCSRFå¯¾ç­ãä½¿ã£ã¦ã¿ã</a></span></li><li class="itemsShowBody_adventCalendar_neighborItem itemsShowBody_adventCalendar_neighborItem-next"><span class="itemsShowBody_adventCalendar_date"><i class="fa fa-fw fa-arrow-circle-right"></i> 9æ¥ç®ã®è¨äº:</span><span class="itemsShowBody_adventCalendar_title"><img alt="xtetsuji" class="itemsShowBody_adventCalendar_icon" src="https://qiita-image-store.s3.amazonaws.com/0/8760/profile-images/1473681145" width="18" height="18" /> <a class="itemsShowBody_adventCalendar_link" href="/xtetsuji/items/ec53b882e98a83d02a1e">Mojoliciousã¢ããªãmod_perlã§ããã­ã¤ãã</a></span></li></ul></div><div class="itemsShowBody_articleColumnFooter"><div class="socialButtons"><div class="socialButtons_twitter"><a class="twitter-share-button" data-text="Mojoliciousã®åé¨ã®namespace/pathã«ã¤ãã¦ç¢ºèª by @yusukebe on @Qiita" data-url="http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" href="https://twitter.com/share">ãã¤ã¼ã</a></div><div class="socialButtons_hatebu"><a class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" data-hatena-bookmark-title="Mojoliciousã®åé¨ã®namespace/pathã«ã¤ãã¦ç¢ºèª" href="http://b.hatena.ne.jp/entry/http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" title="ã¯ã¦ãã«è¿½å "><img alt="ã¯ã¦ãã«è¿½å " height="20" src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" style="border: none;" width="20" /></a><script async="async" charset="utf-8" src="https://b.st-hatena.com/js/bookmark_button.js" type="text/javascript"></script></div><div class="socialButtons_googlePlus"><div class="g-plusone" data-href="http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" data-size="medium"></div></div><div class="socialButtons_facebook"><div class="fb-like" data-action="like" data-href="http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277" data-layout="button_count" data-share="false" data-show-faces="false"></div></div><div class="socialButtons_pocket"><a class="pocket-btn" data-lang="en" data-pocket-count="horizontal" data-pocket-label="pocket"></a></div></div></div><div class="itemsShowComment_wrapper" id="comments"><div data-react-class="T.CommentListContainer" data-react-props="{&quot;currentUser&quot;:null,&quot;initialComments&quot;:[],&quot;monthly_public_image_uploadable_size_limit&quot;:null,&quot;total_uploaded_public_image_size_in_current_month&quot;:null,&quot;item&quot;:{&quot;id&quot;:35187,&quot;uuid&quot;:&quot;606ea9bc71a3ff8f1277&quot;,&quot;suspended&quot;:false,&quot;secret&quot;:false},&quot;owner&quot;:{&quot;url_name&quot;:&quot;yusukebe&quot;},&quot;is_team&quot;:false,&quot;is_project&quot;:false,&quot;logged_in&quot;:false,&quot;polling&quot;:false,&quot;mention_candidates&quot;:[{&quot;id&quot;:22289,&quot;url_name&quot;:&quot;yusukebe&quot;,&quot;profile_image_url&quot;:&quot;https://qiita-image-store.s3.amazonaws.com/0/22289/profile-images/1473683539&quot;}]}">Comments Loading...</div></div></div></div></div></article><div class="js-report-form modal fade reportForm"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button name="button" type="submit" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">åé¡ãããæç¨¿ãå ±åãã</h4></div><div class="modal-body"><form action="/reports" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BO/ywmouShGRCtUaUFxBJIYxyHnb0tf+AgZL2YWHuwSqqDjh7quPctKkEomZtZ+kzBGv51pcjRs3x12nfzWRRw==" /><input type="hidden" name="redirect_path" id="redirect_path" value="/yusukebe/items/606ea9bc71a3ff8f1277" /><input type="hidden" name="item_uuid" id="item_uuid" value="606ea9bc71a3ff8f1277" /><p>ãã®æç¨¿ã«ã©ã®ãããªåé¡ãããã¾ããï¼</p><br /><div class="form-group"><ul class="list-unstyled"><li><label><input type="radio" name="report_type" id="report_type_spam" value="spam" required="required" /> ã¹ãã ã§ã </label></li><li><label><input type="radio" name="report_type" id="report_type_harassment" value="harassment" required="required" /> æ»æçã¾ãã¯è¿·æãªåå®¹ãå«ãã§ãã¾ã </label></li><li><label><input type="radio" name="report_type" id="report_type_inappropriate_content" value="inappropriate_content" required="required" /> ä¸é©åãªåå®¹ãå«ãã§ãã¾ã </label></li></ul></div><div class="reportForm_submitButtonContainer"><button name="button" type="submit" class="btn btn-primary reportForm_submitButton"><i class="fa fa-send"></i> éä¿¡</button></div></form></div></div></div></div><script id="js-item" type="application/json">{ "url": "http://qiita.com/yusukebe/items/606ea9bc71a3ff8f1277", "id": 35187, "uuid": "606ea9bc71a3ff8f1277" }</script><script class="js-user" type="application/json">{&quot;id&quot;:22289,&quot;url_name&quot;:&quot;yusukebe&quot;,&quot;profile_image_url&quot;:&quot;https://qiita-image-store.s3.amazonaws.com/0/22289/profile-images/1473683539&quot;}</script><script language="JavaScript" src="//cdn.bigmining.com/private/js/qiita_bigmining.js" type="text/javascript"></script></div><footer class="footer"><div class="footer_inner"><div class="footer_container"><ul class="footer_links-left"><li class="footer_link"><a class="footer_copyright" href="http://increments.co.jp">Â© 2017 Increments Inc.</a></li><li class="footer_link"><a href="http://qiita.com/terms">å©ç¨è¦ç´</a></li><li class="footer_link"><a href="http://qiita.com/privacy">ãã©ã¤ãã·ã¼</a></li><li class="footer_link"><a href="http://help.qiita.com">ãã«ã</a></li><li class="footer_link"><a href="https://increments.zendesk.com/anonymous_requests/new">ãåãåãã</a></li></ul><ul class="footer_links-right"><li class="footer_link"><a href="http://qiita.com/about">Qiitaã¨ã¯</a></li><li class="footer_link"><a href="http://blog.qiita.com">ãã­ã°</a></li><li class="footer_link"><a href="http://qiita.com/api/v2/docs">API</a></li><li class="footer_link"><a href="https://teams.qiita.com/">Team</a></li><li class="footer_link"><a href="http://kobito.qiita.com">Kobito</a></li><li class="footer_link"><a class="js-public-form-feedback-link" data-target=".js-feedback-form" data-toggle="modal" href=""><i class="fa fa-heart"></i> ãæè¦ <i class="fa fa-caret-down"></i></a></li></ul></div></div></footer><div class="js-feedback-form modal fade feedbackForm"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button name="button" type="submit" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">ãæè¦</h4></div><div class="modal-body"><form class="js-feedback-form-form" action="/feedbacks" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="VzVwBJ6JdqSKBxfriNV3yWGXmeVAk9y3oEufmpFz8ND5cronGgyzx8mp0HhBPKlJK7f+e8EdhlKVionka8Hakw==" /><input type="hidden" name="redirect_path" id="redirect_path" value="/yusukebe/items/606ea9bc71a3ff8f1277" /><div class="form-group"><textarea name="feedback[message]" id="feedback_message" class="form-control js-feedback-form-text-area" placeholder="Qiitaã«ã¤ãã¦ã®ãæè¦ããèãããã ããã" required="required" rows="5">
+</textarea></div><div class="feedbackForm_submitButtonContainer"><button name="button" type="submit" class="btn btn-primary feedbackForm_submitButton"><i class="fa fa-send"></i> éä¿¡</button><p class="feedbackForm_note">ããã ãããæè¦ã¸ã®è¿ä¿¡ã¯è¡ã£ã¦ããã¾ããã<br />è¿ä¿¡ã®å¿è¦ãªåå®¹ã«ã¤ãã¦ã¯ã<a href="https://increments.zendesk.com/anonymous_requests/new">ãã¡ã</a> ãããåãåãããã ããã</p></div><div style="position:fixed;top:-99999px;opacity:0.0001;"><input name="feedback[name]" type="text" /></div></form></div></div></div></div><script>// if (window.mixpanel instanceof Element) {
+//   window.mixpanel = [];
+// }
+// (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+// for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);</script><script src="http://cdn.qiita.com/assets/public-8f290bb91a21877978e3cb73e158cd77.min.js"></script><script>
+  (function () {
+    var script = document.getElementsByTagName('script')[0];
+    var load = function (src, id) {
+      var el = document.createElement('script');
+      el.async = true;
+      el.src = src;
+      el.id = id;
+      script.parentNode.insertBefore(el, script);
+    };
+      // Optimizely
+      load('//cdn.optimizely.com/js/52738645.js', 'optimizely-jssdk');
+      // Google Analytics
+      window._gaq = window._gaq || [];
+      var isCareer = location.hostname.split('.')[0] == 'career';
+      if (isCareer) {
+        window._gaq.push(['_setAccount', 'UA-24675221-11']);
+        window._gaq.push(['_setDomainName', 'qiita.com']);
+      } else {
+        window._gaq.push(['_setAccount', 'UA-24675221-1']);
+      }
+      window._gaq.push(['_setCustomVar', 1, 'logged_in', 'false', 2]);
+      window._gaq.push(['_trackPageview']);
+      var src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      load(src, 'google-analytics-jssdk');
+    // Google Analytics - Universal Analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-24675221-12', {
+          
+        });
+        ga('set', 'dimension1', 'false');
+        ga('set', 'dimension3', 'false');
+      ga('require', 'displayfeatures');
+      ga('set', 'forceSSL', true);
+      ga('send', 'pageview');
+    // Google Tag Manager
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TBQWPN');
+  })();
+</script>
+</body></html>
